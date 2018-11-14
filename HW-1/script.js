@@ -22,20 +22,20 @@ dragElement(document.getElementById('square'),defaulValues);
 dragElement(document.getElementById('circle'),defaulValues);
 
 
-window.addEventListener('resize', () => {
-    defaulValues = {
-        square: document.getElementById('square').getBoundingClientRect(),
-        circle: document.getElementById('circle').getBoundingClientRect(),
-        parent: document.getElementsByClassName('left')[0].getBoundingClientRect(),
-        measures: document.getElementById("canvas").getBoundingClientRect()
-    };
-    fakeCircle.style.top = defaulValues.circle.top - 40 + "px";
-    fakeCircle.style.left = defaulValues.circle.left + "px";
-    fakeSquare.style.top = defaulValues.square.top - 40 + "px";
-    fakeSquare.style.left = defaulValues.square.left + "px";
-    dragElement(document.getElementById('square'),defaulValues);
-    dragElement(document.getElementById('circle'),defaulValues);
-});
+// window.addEventListener('resize', () => {
+//     defaulValues = {
+//         square: document.getElementById('square').getBoundingClientRect(),
+//         circle: document.getElementById('circle').getBoundingClientRect(),
+//         parent: document.getElementsByClassName('left')[0].getBoundingClientRect(),
+//         measures: document.getElementById("canvas").getBoundingClientRect()
+//     };
+//     fakeCircle.style.top = defaulValues.circle.top - 40 + "px";
+//     fakeCircle.style.left = defaulValues.circle.left + "px";
+//     fakeSquare.style.top = defaulValues.square.top - 40 + "px";
+//     fakeSquare.style.left = defaulValues.square.left + "px";
+//     dragElement(document.getElementById('square'),defaulValues);
+//     dragElement(document.getElementById('circle'),defaulValues);
+// });
 
 function dragElement(elmnt,defaulValues ) {
     let cord = elmnt.getBoundingClientRect();
@@ -139,13 +139,9 @@ document.getElementById('canvas').addEventListener('mousedown', (e) => {
             document.getElementById('shadowElement').style.left = e.x - 40 + 'px';
         }
     }
-    function removingListeners(e){
-        document.getElementById('shadowElement').removeEventListener('mousemove', movingShadowElement);
-        document.getElementById('shadowElement').removeEventListener('mouseup',removingListeners);
-    }
     function removingCanvasListeners(e){
-        document.getElementById('canvas').removeEventListener('mousemove', movingShadowElement);
-        document.getElementById('canvas').removeEventListener('mouseup',removingCanvasListeners);
+        document.removeEventListener('mousemove', movingShadowElement);
+        document.removeEventListener('mouseup',removingCanvasListeners);
     }
 
     figures.forEach((el, i) => {
@@ -156,10 +152,8 @@ document.getElementById('canvas').addEventListener('mousedown', (e) => {
             shadowElement.id = 'shadowElement';
             shadowElement.style.cssText = `position:absolute;top:${e.y - 80}px;left:${e.x - 40 }px`;
             document.body.appendChild(shadowElement);
-            shadowElement.addEventListener('mousemove', movingShadowElement);
-            shadowElement.addEventListener('mouseup',removingListeners);
-            document.getElementById('canvas').addEventListener('mousemove', movingShadowElement);
-            document.getElementById('canvas').addEventListener('mouseup', removingCanvasListeners);
+            document.addEventListener('mousemove', movingShadowElement);
+            document.addEventListener('mouseup', removingCanvasListeners);
             canvasInit(figures);
         }
     })
