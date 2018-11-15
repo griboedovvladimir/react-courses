@@ -6,4 +6,6 @@ const data = {
     fuel:["petrol", "diesel"],
     transmission: ["automatic", "manual"]
 };
+let windowBuilder = new WindowBuilder();
+
 
