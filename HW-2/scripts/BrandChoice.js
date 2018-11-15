@@ -1,18 +1,40 @@
 class BrandChoice {
     constructor(appData) {
         this.appData = appData;
+        this.store = new Store();
+        this.selectedBrand = this.store.getStore().brand || '';
         this.render();
-        document.getElementById('next').addEventListener('click', this);
+        this.addListeners()
+}
+
+addListeners(){
+    document.getElementById('next').addEventListener('click', this);
+    document.getElementById('brand').addEventListener('focus', this);
+}
+
+removeListeners(){
+    document.getElementById('next').removeEventListener('click', this);
+    document.getElementById('brand').removeEventListener('focus', this);
 }
 
     handleEvent(e) {
-        document.getElementById('next').removeEventListener('click', this);
-        new ModelChoice(this.appData, document.getElementById('form').brand.value);
+        if(e.target.id === 'next') {
+            this.removeListeners();
+            this.store.addToStore({...this.store.addToStore, brand: document.getElementById('form').brand.value});
+            new ModelChoice(this.appData, document.getElementById('form').brand.value);
+        }
+        if(e.target.id === 'brand'){
+            document.getElementById('next').disabled = false;
+        }
     }
 
     render() {
         let options = Object.keys(this.appData.brand).reduce((cnt,el)=>{
-            return cnt + `<option>${el}</option>`;
+            if(el=== this.selectedBrand){
+                return cnt + `<option selected>${el}</option>`;
+            }else {
+                return cnt + `<option>${el}</option>`;
+            }
         },'');
         document.getElementById('wrapper').innerHTML = `
         <form id="form">
@@ -20,7 +42,7 @@ class BrandChoice {
         <select name="brand" id="brand">
             ${options}
         </select>
-        <button type="button" id = 'next'>Next</button>
+        <button type="button" id = 'next' disabled>Next</button>
     </form>
         `
     }

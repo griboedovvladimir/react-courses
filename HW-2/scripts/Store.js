@@ -1,8 +1,20 @@
+let instance = null;
+
 class Store{
+
     constructor(){
-        this.choice=[];
+        if(!instance){
+            instance = this;
+        }
+        this.choice={};
+
+        return instance;
     }
-
-
+addToStore(choice){
+        this.choice={...this.choice,...choice};
 }
-window.Store = Store
+getStore(){
+        return this.choice;
+}
+}
+window.Store = Store;

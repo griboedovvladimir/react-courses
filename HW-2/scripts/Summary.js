@@ -2,6 +2,7 @@ class Summary {
     constructor(appData, brand) {
         this.brand = brand;
         this.appData = appData;
+        this.store = new Store();
         this.render();
         this.addListeners();
     }
@@ -23,16 +24,14 @@ class Summary {
     }
 
     render() {
-        let options = this.appData.transmission.reduce((cnt, el) => {
-            return `<option>${el}</option>` + cnt;
-        }, '');
+        let list = Object.keys(this.store.getStore()).reduce((cnt,el)=>{
+                return cnt + `<li>${el} : ${this.store.getStore()[el]}</li>`;
+        },'');
         document.getElementById('wrapper').innerHTML = `
         <div id="form">
         <h2>Your choice:</h2>
         <ul>
-        <li>Brand:</li>
-        <li>Model:</li>
-        <li>Fuel</li>
+        ${list}
 </ul>
         <button type="button" id = 'back'>Back</button>
     </div>

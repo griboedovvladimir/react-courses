@@ -9,5 +9,6 @@ const data = {
 };
 
 new BrandChoice(data);
+new Store();
 
 
