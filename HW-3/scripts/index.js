@@ -17,7 +17,7 @@ async function renderNews(id) {
 //         "Content-Type": "application/x-www-form-urlencoded; charset=utf-8",
 //     },}).then(res=>res.json())
     let response = await Promise.resolve('allOK');
-    dataPrepere(response);
+    dataPrepare(response);
 }
 
 function navSwitcher(id) {
@@ -32,6 +32,6 @@ function navSwitcher(id) {
     }
 }
 
-function dataPrepere(response) {
+function dataPrepare(response) {
     console.log(response);
 }
