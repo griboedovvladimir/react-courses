@@ -12,7 +12,7 @@ document.getElementById('navigate').addEventListener('click', (e)=>{
            navSwitcher(e.target.id);
 });
 
-function renderNews(id){
+async function renderNews(id){
 
 }
 
