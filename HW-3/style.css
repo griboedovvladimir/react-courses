@@ -5,6 +5,11 @@ header {
     margin: 0 auto;
 }
 
+.wrapper{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 .logo img {
     width: 180px;
     height: 40px;
@@ -41,6 +46,7 @@ header {
     line-height: 40px;
     padding: 0 5px;
     cursor: pointer;
+    user-select: none;
 }
 
 
