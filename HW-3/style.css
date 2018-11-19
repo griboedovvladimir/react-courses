@@ -1,0 +1,30 @@
+
+header{
+    display: flex;
+}
+.logo img{
+    width: 180px;
+    height:40px;
+}
+.logo div{
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #e70000;
+    transform: rotate(-40deg);
+    width: 70px;
+    height: 20px;
+    top : 0;
+    font-size: 26px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    margin-top: -35px;
+}
+
+.navigate {
+    width: 400px;
+    height: 40px;
+    background-color: #ffe80e;
+    display: flex;
+    color:black;
+    font-family: sans-serif;
+    font-weight: 700;
+}
