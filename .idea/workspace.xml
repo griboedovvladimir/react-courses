@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3937b521-dc32-47e3-b881-f93752ea63b6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/HW-3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HW-3/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW-3/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/HW-3/scripts/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HW-3/scripts/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+            <state relative-caret-position="496">
+              <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -233,18 +232,18 @@
       <workItem from="1542621476088" duration="218000" />
       <workItem from="1542624405008" duration="566000" />
       <workItem from="1542626057894" duration="6426000" />
-      <workItem from="1542632494139" duration="4783000" />
+      <workItem from="1542632494139" duration="5663000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76307000" />
+    <option name="totallyTimeSpent" value="77187000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1055" extended-state="7" />
+    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24934107" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24934107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -256,7 +255,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.40064794" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.40064794" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -383,8 +382,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HW-3/scripts/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        <state relative-caret-position="496">
+          <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
         </state>
       </provider>
     </entry>
