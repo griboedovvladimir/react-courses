@@ -1,6 +1,6 @@
 const preloader = new Image(200, 200);
 preloader.src = 'preloader.svg';
-preloader.style.cssText = 'position: absolute; top: 50%; left: 50%; margin: -100px 0 0 -100px';
+preloader.style.cssText = 'position: absolute; top: 50%; margin: -100px 0 0 0'
 
 function newsInit(id = 'people') {
     document.body.appendChild(preloader);
@@ -11,11 +11,12 @@ function newsInit(id = 'people') {
 }
 
 async function renderNews(id) {
-    let response = await fetch('beckend.php',{
-        method:'POST',
+    let response = await fetch(`backend/${id}.php`, {
+        method: 'POST',
         headers: {
             "Content-Type": "application/x-www-form-urlencoded; charset=utf-8",
-        },}).then(res=>res.json());
+        },
+    }).then(res => res.json());
     dataRender(dataParser(response));
 }
 
@@ -31,22 +32,19 @@ function dataParser(response) {
     let data = response.split(' class="news-tidings__item news-tidings__item_1of3 news-tidings__item_condensed "');
     data.pop();
     data.shift();
-    console.log(data);
-    let parsedData = data.reduce((cnt,el)=>{
+    let parsedData = data.reduce((cnt, el) => {
         let img = el.split(`<div class="news-tidings__image news-helpers_hide_mobile-small" style="background-image: url(`)[1].split(`);"></div>`)[0];
         let link = 'https://realt.onliner.by' + el.split(`<a href="`)[1].split(`" class="news-tidings__stub"></a>`)[0];
         let title = el.split(`<span class="news-helpers_hide_mobile-small">`)[1].split(`</span`)[0];
         let discription = el.split(`<div class="news-tidings__speech news-helpers_hide_mobile-small">`)[1].split(`</div>`)[0].trim();
         cnt.push({img, link, title, discription});
         return cnt;
-    }, [])
-    console.log(parsedData);
-    return(parsedData)
-
+    }, []);
+    return (parsedData)
 }
 
-function dataRender(data){
-    let news = data.reduce((cnt,el)=>{
+function dataRender(data) {
+    let news = data.reduce((cnt, el) => {
         let article = `${cnt}
     <div class="news-wrapper">
     <img class = "news-img" src = "${el.img}">
@@ -55,7 +53,7 @@ function dataRender(data){
 </div>
     `;
         return article;
-    } , '');
+    }, '');
     document.getElementById('newsWrapper').innerHTML = news;
 }
 
