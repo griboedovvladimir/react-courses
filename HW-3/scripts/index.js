@@ -1,14 +1,19 @@
-newsInit('people');
-
-document.getElementById('navigate').addEventListener('click', (e) => {
-    if (e.target.classList.contains('navigate-items')){
-        newsInit(e.target.id);
-    }
-});
+const preloader = new Image(200, 200);
+preloader.src = 'preloader.svg';
+preloader.style.cssText = 'position: absolute; top: 50%; left: 50%; margin: -100px 0 0 -100px';
 
 function newsInit(id) {
+    activatePreloader();
     renderNews(id);
     navSwitcher(id);
+}
+
+function activatePreloader(preloader){
+    document.body.appendChild(preloader);
+}
+
+function removePreloader(preloader){
+    preloader.remove();
 }
 
 async function renderNews(id) {
@@ -34,4 +39,13 @@ function navSwitcher(id) {
 
 function dataPrepare(response) {
     console.log(response);
+    removePreloader(preloader)
 }
+
+document.getElementById('navigate').addEventListener('click', (e) => {
+    if (e.target.classList.contains('navigate-items')){
+        newsInit(e.target.id);
+    }
+});
+
+newsInit('people');
