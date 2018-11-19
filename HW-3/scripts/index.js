@@ -1,28 +1,36 @@
+newsInit('people');
 
-
-document.getElementById('navigate').addEventListener('click', (e)=>{
-           newsInit(e.target.id);
+document.getElementById('navigate').addEventListener('click', (e) => {
+    console.log(e.target);
+    newsInit(e.target.id);
 });
 
-function newsInit(id){
+function newsInit(id) {
     renderNews(id);
     navSwitcher(id);
 }
 
-async function renderNews(id){
+async function renderNews(id) {
 // let response = await fetch('beckend.php',{method:'POST',
 //     headers: {
 //         "Content-Type": "application/x-www-form-urlencoded; charset=utf-8",
 //     },}).then(res=>res.json())
     let response = await Promise.resolve('allOK');
     dataPrepere(response);
-
 }
 
-function navSwitcher(id){
-
+function navSwitcher(id) {
+    let navItems = document.getElementsByClassName('navigate-items');
+    for (el of navItems) {
+        if (el.classList.contains('active')) {
+            el.classList.remove('active')
+        }
+        if(el.id ===id){
+            el.classList.add('active');
+        }
+    }
 }
 
-function dataPrepere(response){
-console.log(response);
+function dataPrepere(response) {
+    console.log(response);
 }
