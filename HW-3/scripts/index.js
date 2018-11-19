@@ -1,8 +1,9 @@
 newsInit('people');
 
 document.getElementById('navigate').addEventListener('click', (e) => {
-    console.log(e.target);
-    newsInit(e.target.id);
+    if (el.classList.contains('navigate-items')){
+        newsInit(e.target.id);
+    }
 });
 
 function newsInit(id) {
