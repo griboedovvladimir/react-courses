@@ -1,69 +1,69 @@
-var grafics = {
-    g1: {1: 1.9887, 2: 1.9757, 3: 1.9578, 4: 22, 5: 16, 6: 20, 7: 18, 8: 13, 9: 16, 10: 35},
-    g2: {1: 11, 2: 10, 3: 8, 4: 6, 5: 13, 6: 12, 7: 22, 8: 18, 9: 16, 10: 15},
+let ctxafics = {
+    g1: {1: 1.9887, 2: 1.9757, 3: 1.9578, 4: 2.0003, 5: 2.0075, 6: 2.0028, 7: 1.9844, 8: 2.0398, 9: 2.1169, 10: 2.1169},
+    // g2: {1: 11, 2: 10, 3: 8, 4: 6, 5: 13, 6: 12, 7: 22, 8: 18, 9: 16, 10: 15},
     // g3: {1: 5, 2: 4, 3: 2, 4: 1, 5: 7, 6: 6, 7: 16, 8: 12, 9: 10, 10: 9},
     // // g4: {1: 3, 2: 4, 3: 8, 4: 12, 5: 15, 6: 18, 7: 21, 8: 22, 9: 25, 10: 27}
 };
 
 //цвета линий
-var colors = ['#f00', '#0f0', '#00f','#0ff'];
+let colors = ['#f00', '#0f0', '#00f','#0ff'];
 
-var canvas = document.getElementById("draws");
-var gr = canvas.getContext("2d");
+let canvas = document.getElementById("draws");
+let ctx = canvas.getContext("2d");
 
-var maxCount = 35 + 10;
-var y0;
-var x0 = y0 = 30;
-var width = canvas.width - 80;
-var height = canvas.height - 90;
-var stepY = Math.round(height / maxCount);
-var stepX = Math.round(width / 10);
+let maxCount = 35 + 10;
+let y0;
+let x0 = y0 = 30;
+let width = canvas.width - 80;
+let height = canvas.height - 90;
+let stepY = Math.round(height / maxCount);
+let stepX = Math.round(width / 10);
 
-gr.beginPath();
+ctx.beginPath();
 //Вертикальная линия
-gr.moveTo(x0, y0);
-gr.lineTo(x0, height + y0);
+ctx.moveTo(x0, y0);
+ctx.lineTo(x0, height + y0);
 //горизонтальная линия
-gr.lineTo(width + x0, height + y0);
+ctx.lineTo(width + x0, height + y0);
 
-var m = 0;
-var x_max = 12;
+let m = 0;
+let x_max = 12;
 //нижняя разметка и цифры
-for (var i = x0; m < x_max; i += stepX) {
+for (let i = x0; m < x_max; i += stepX) {
     m ++;
-    gr.moveTo(i, height + y0);
-    gr.lineTo(i, height + y0 + 15);
-    gr.fillText('янв', i + 3, height + y0 + 15);
+    ctx.moveTo(i, height + y0);
+    ctx.lineTo(i, height + y0 + 15);
+    ctx.fillText('янв', i + 3, height + y0 + 15);
 }
-gr.lineWidth = 2;
-gr.stroke();
-gr.closePath();
+ctx.lineWidth = 2;
+ctx.stroke();
+ctx.closePath();
 
 //рисуются кривые
-var nr_color = 0;
-for (var g in grafics) {
-    gr.beginPath();
+let nr_color = 0;
+for (let g in ctxafics) {
+    ctx.beginPath();
 
-    for (var m in grafics[g]) {
-        var count = grafics[g][m];
-        var x = x0 + ((m - 1) * stepX);
-        var y = y0 + (height - count * stepY);
+    for (let m in ctxafics[g]) {
+        let count = ctxafics[g][m];
+        let x = x0 + ((m - 1) * stepX);
+        let y = y0 + (height - count * stepY);
 
         if (1 == m)
-            gr.moveTo(x, y);
+            ctx.moveTo(x, y);
         else
-            gr.lineTo(x, y);
+            ctx.lineTo(x, y);
 
-        // gr.arc(x, y, 4, 0, 4 * Math.PI, false);
-        // gr.closePath();
-        // gr.fill();
-        gr.fillText(count, x-5, y-5);//текст над точками
-        gr.fillText(count, x0 - 15, y);//текст у боковой линии
+        // ctx.arc(x, y, 4, 0, 4 * Math.PI, false);
+        // ctx.closePath();
+        // ctx.fill();
+        ctx.fillText(count, x-5, y-5);//текст над точками
+        ctx.fillText(count, x0 - 15, y);//текст у боковой линии
 
     }
 
-    gr.strokeStyle = colors[nr_color]; //цвет линии
+    ctx.strokeStyle = colors[nr_color]; //цвет линии
     nr_color++;
-    gr.lineWidth = 2;//толщина линии
-    gr.stroke();
+    ctx.lineWidth = 2;//толщина линии
+    ctx.stroke();
 }
