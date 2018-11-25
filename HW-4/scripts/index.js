@@ -1,4 +1,4 @@
-import {ChartMaker} from "./ChartMaker.js";
+import {ChartMaker} from './ChartMaker.js';
 const data = Object.entries({
     'Jan': 1.989,
     'Feb': 1.976,
@@ -11,7 +11,7 @@ const data = Object.entries({
     'Sep': 2.117,
     'Oct': 2.117
 });
-const canvas = document.getElementById("chart");
+const canvas = document.getElementById('chart');
 
 new ChartMaker(data, canvas);
 

@@ -1,7 +1,7 @@
 export class ChartMaker {
     constructor(data, canvas) {
         this.data = data;
-        this.ctx = canvas.getContext("2d");
+        this.ctx = canvas.getContext('2d');
         this.maxCount = 3;
         this.width = canvas.width - 80;
         this.height = canvas.height - 80;
@@ -41,7 +41,7 @@ export class ChartMaker {
             this.points.push([x, y]);
         }
 
-        this.ctx.strokeStyle = "#E10";
+        this.ctx.strokeStyle = '#E10';
         this.ctx.lineWidth = 2;
         this.ctx.stroke();
     }
@@ -52,7 +52,7 @@ export class ChartMaker {
         }
         this.points.forEach((el, i) => {
             if ((e.x > el[0] + 47 && e.x < el[0] + 53) && (e.y - 10 < el[1] && el[1] < e.y - 8)) {
-                let tooltip = document.createElement('p');
+                const tooltip = document.createElement('p');
                 tooltip.innerText = `${this.data[i][1]}`;
                 tooltip.id = 'tooltip';
                 tooltip.style.cssText = `position: absolute; top:${e.y - 50}px; left:${el[0] + 40}px`;
@@ -65,7 +65,7 @@ export class ChartMaker {
     render() {
         this.makePlot();
         this.makeChart();
-        document.getElementById("chart").addEventListener('mousemove', (e) => {
+        document.getElementById('chart').addEventListener('mousemove', (e) => {
             this.makeTooltip(e);
         });
     }
