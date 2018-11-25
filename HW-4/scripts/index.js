@@ -14,4 +14,3 @@ const data = Object.entries({
 const canvas = document.getElementById('chart');
 
 new ChartMaker(data, canvas);
-
