@@ -9,7 +9,7 @@ const data = Object.entries({
     'Jul': 1.984,
     'Aug': 2.041,
     'Sep': 2.117,
-    'Oct': 2.117
+    'Oct': 2.117,
 });
 const canvas = document.getElementById('chart');
 

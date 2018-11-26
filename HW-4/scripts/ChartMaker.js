@@ -29,7 +29,7 @@ export class ChartMaker {
         this.ctx.closePath();
     }
 
-    makeChart() {
+    makeLine() {
         this.ctx.beginPath();
         for (let i = 0; i < this.data.length; i++) {
             let count = this.data[i][1];
@@ -64,7 +64,7 @@ export class ChartMaker {
 
     render() {
         this.makePlot();
-        this.makeChart();
+        this.makeLine();
         document.getElementById('chart').addEventListener('mousemove', (e) => {
             this.makeTooltip(e);
         });
