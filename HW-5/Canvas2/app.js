@@ -31,7 +31,6 @@
                     renderOverlay(position.x, position.y, position.r);
                     makePreview(previewContext, img, overlayCanvas);
                 });
-
             });
         }
     });
@@ -40,6 +39,8 @@
         let mode = null,
             diff = 10,
             mousedown = e => {
+            // console.log(e.offsetX >= position.x + position.r - diff && e.offsetX <= position.x + position.r + diff);
+
                 if (e.offsetX >= position.x - position.r - diff && e.offsetX <= position.x - position.r + diff ||
                     e.offsetX >= position.x + position.r - diff && e.offsetX <= position.x + position.r + diff
                     && e.offsetY <= position.y - diff && e.offsetY >= position.y + diff) {
@@ -49,8 +50,9 @@
                 }
             },
             mousemove = e => {
+
                 if (mode === 'resize') {
-                    position.r -= e.movementX;
+                    position.r -= e.movementX
                 }
                 if (mode === 'move') {
                     position.x = e.offsetX;
@@ -71,7 +73,7 @@
     }
 
     function animate(fn) {
-        frameRequest = requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
             fn();
             animate(fn);
         });
@@ -98,11 +100,19 @@
             ctx.fillRect(0, 0, width, heigth);
             ctx.fillStyle = '#fff';
             ctx.globalCompositeOperation = 'destination-out';
+            if(r<30) {r = 30};
             ctx.beginPath();
             ctx.arc(x, y, r, 0, 2 * Math.PI);
             ctx.closePath();
             ctx.fill();
             ctx.restore();
+            ctx.beginPath();
+            ctx.arc(x-r, y, 5, 0, 2 * Math.PI);
+            ctx.closePath();
+            ctx.fillStyle = "white";
+            ctx.fill();
+            ctx.restore();
+            ctx.beginPath();
         };
 
     }
