@@ -74,6 +74,7 @@
             preview.removeEventListener('mousedown', mousedown);
             preview.removeEventListener('mousemove', mousemove);
             preview.removeEventListener('mouseup', mouseup);
+            window.removeEventListener('keydown', keydown);
         };
     }
 

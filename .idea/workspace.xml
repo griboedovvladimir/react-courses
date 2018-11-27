@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/HW-5/Canvas2/app.js" line="131" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3937b521-dc32-47e3-b881-f93752ea63b6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/HW-5/Canvas2/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/HW-5/Canvas2/app.js" afterDir="false" />
-    </list>
+    <list default="true" id="3937b521-dc32-47e3-b881-f93752ea63b6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -27,42 +25,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HW-5/canvas/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HW-5/Canvas2/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+            <state relative-caret-position="462">
+              <caret line="132" selection-start-line="132" selection-end-line="132" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HW-5/canvas/js.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HW-5/canvas/js1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HW-5/canvas/js2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-183" />
           </provider>
         </entry>
       </file>
@@ -161,7 +129,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1925" />
@@ -184,12 +152,6 @@
               <item name="react-courses" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-courses" type="462c0819:PsiDirectoryNode" />
               <item name="HW-5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-courses" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-courses" type="462c0819:PsiDirectoryNode" />
-              <item name="HW-5" type="462c0819:PsiDirectoryNode" />
-              <item name="canvas" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-courses" type="b2602c69:ProjectViewProjectNode" />
@@ -256,18 +218,17 @@
       <workItem from="1542689960727" duration="6000" />
       <workItem from="1542806905832" duration="347000" />
       <workItem from="1542867081394" duration="548000" />
-      <workItem from="1543255467532" duration="17207000" />
+      <workItem from="1543255467532" duration="18112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103355000" />
+    <option name="totallyTimeSpent" value="104260000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1213" height="999" extended-state="7" />
-    <editor active="true" />
+    <frame x="67" y="25" width="1213" height="999" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09831933" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3252101" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -476,8 +437,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HW-5/Canvas2/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+        <state relative-caret-position="462">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
         </state>
       </provider>
     </entry>
