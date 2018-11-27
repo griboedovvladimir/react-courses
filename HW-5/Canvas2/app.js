@@ -26,7 +26,7 @@
                         y: height / 2,
                         r: Math.min(width, height) / 2
                     };
-                removeListeners = bindListeners(previewCanvas, position);
+                removeListeners = bindListeners(previewCanvas, position,previewContext, overlayContext);
                 animate(() => {
                     renderOverlay(position.x, position.y, position.r);
                     makePreview(previewContext, img, overlayCanvas);
@@ -35,12 +35,10 @@
         }
     });
 
-    function bindListeners(preview, position) {
+    function bindListeners(preview, position, previewContext,overlayContext ) {
         let mode = null,
             diff = 10,
             mousedown = e => {
-            // console.log(e.offsetX >= position.x + position.r - diff && e.offsetX <= position.x + position.r + diff);
-
                 if (e.offsetX >= position.x - position.r - diff && e.offsetX <= position.x - position.r + diff ||
                     e.offsetX >= position.x + position.r - diff && e.offsetX <= position.x + position.r + diff
                     && e.offsetY <= position.y - diff && e.offsetY >= position.y + diff) {
@@ -61,10 +59,17 @@
             },
             mouseup = e => {
                 mode = null;
+            },
+            keydown = e => {
+                if (e.which === 13) {
+                    e.preventDefault();
+                    crop(previewContext,position, preview, overlayContext) ;
+                }
             };
         preview.addEventListener('mousedown', mousedown);
         preview.addEventListener('mousemove', mousemove);
         preview.addEventListener('mouseup', mouseup);
+        window.addEventListener('keydown', keydown);
         return () => {
             preview.removeEventListener('mousedown', mousedown);
             preview.removeEventListener('mousemove', mousemove);
@@ -73,7 +78,7 @@
     }
 
     function animate(fn) {
-    requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
             fn();
             animate(fn);
         });
@@ -100,14 +105,16 @@
             ctx.fillRect(0, 0, width, heigth);
             ctx.fillStyle = '#fff';
             ctx.globalCompositeOperation = 'destination-out';
-            if(r<30) {r = 30};
+            if (r < 30) {
+                r = 30
+            }
             ctx.beginPath();
             ctx.arc(x, y, r, 0, 2 * Math.PI);
             ctx.closePath();
             ctx.fill();
             ctx.restore();
             ctx.beginPath();
-            ctx.arc(x-r, y, 5, 0, 2 * Math.PI);
+            ctx.arc(x - r, y, 5, 0, 2 * Math.PI);
             ctx.closePath();
             ctx.fillStyle = "white";
             ctx.fill();
@@ -122,8 +129,25 @@
         ctx.drawImage(overlay, 0, 0, image.width, image.height);
     }
 
+function crop(ctx, position, preview, overlayContext ){
+    // ctx.beginPath();
+    // ctx.arc(position.x, position.y, position.r, 0, 2 * Math.PI);
+    // ctx.closePath();
+    // ctx.fillStyle = '#fff';
+    overlayContext.clearRect(0, 0, 800, 800);
+    overlayContext.fillStyle = '#fff';
+    overlayContext.fillRect(0, 0, 800,800);
 
-    // console.log(ctx.getImageData(0, 0, canvas.width, canvas.height));
+
+
+    preview.toBlob(blob=> {
+        let url = URL.createObjectURL(blob);
+        let a = document.createElement('a');
+        a.href = url;
+        a.download = 'image.png';
+        a.dispatchEvent(new MouseEvent('click'));
+    })
+}
 
 }());
 
