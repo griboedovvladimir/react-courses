@@ -130,15 +130,6 @@
     }
 
 function crop(ctx, position, preview, overlayContext ){
-    // ctx.beginPath();
-    // ctx.arc(position.x, position.y, position.r, 0, 2 * Math.PI);
-    // ctx.closePath();
-    // ctx.fillStyle = '#fff';
-    overlayContext.clearRect(0, 0, 800, 800);
-    overlayContext.fillStyle = '#fff';
-    overlayContext.fillRect(0, 0, 800,800);
-
-
 
     preview.toBlob(blob=> {
         let url = URL.createObjectURL(blob);
