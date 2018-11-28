@@ -26,7 +26,7 @@
                         y: height / 2,
                         r: Math.min(width, height) / 2
                     };
-                removeListeners = bindListeners(previewCanvas, position,previewContext, overlayContext);
+                removeListeners = bindListeners(previewCanvas, position,previewContext, overlayContext, img);
                 animate(() => {
                     renderOverlay(position.x, position.y, position.r);
                     makePreview(previewContext, img, overlayCanvas);
@@ -35,7 +35,7 @@
         }
     });
 
-    function bindListeners(preview, position, previewContext,overlayContext ) {
+    function bindListeners(preview, position, previewContext,overlayContext,img ) {
         let mode = null,
             diff = 10,
             mousedown = e => {
@@ -63,7 +63,7 @@
             keydown = e => {
                 if (e.which === 13) {
                     e.preventDefault();
-                    crop(previewContext,position, preview, overlayContext) ;
+                    crop(previewContext,position, preview, overlayContext, img) ;
                 }
             };
         preview.addEventListener('mousedown', mousedown);
@@ -130,7 +130,11 @@
         ctx.drawImage(overlay, 0, 0, image.width, image.height);
     }
 
-function crop(ctx, position, preview, overlayContext ){
+function crop(ctx, position, preview, overlayContext,image ){
+         preview.width = preview.height = position.r*2;
+         ctx.drawImage(image, position.x - position.r, position.y - position.r, position.r*2,position.r*2,0, 0, position.r*2, position.r*2);
+
+        console.log(position);
 
     preview.toBlob(blob=> {
         let url = URL.createObjectURL(blob);
