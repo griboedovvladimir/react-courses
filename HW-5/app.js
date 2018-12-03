@@ -26,7 +26,7 @@
                         y: height / 2,
                         r: Math.min(width, height) / 2
                     };
-                removeListeners = bindListeners(previewCanvas, position,previewContext, overlayContext);
+                removeListeners = bindListeners(previewCanvas, position,previewContext, overlayContext, img);
                 animate(() => {
                     renderOverlay(position.x, position.y, position.r);
                     makePreview(previewContext, img, overlayCanvas);
@@ -35,7 +35,7 @@
         }
     });
 
-    function bindListeners(preview, position, previewContext,overlayContext ) {
+    function bindListeners(preview, position, previewContext,overlayContext,img ) {
         let mode = null,
             diff = 10,
             mousedown = e => {
@@ -63,7 +63,7 @@
             keydown = e => {
                 if (e.which === 13) {
                     e.preventDefault();
-                    crop(previewContext,position, preview, overlayContext) ;
+                    crop(previewContext,position, preview, overlayContext, img) ;
                 }
             };
         preview.addEventListener('mousedown', mousedown);
@@ -130,7 +130,16 @@
         ctx.drawImage(overlay, 0, 0, image.width, image.height);
     }
 
-function crop(ctx, position, preview, overlayContext ){
+function crop(ctx, position, preview, overlayContext,image ){
+         preview.width = preview.height = position.r*2;
+         ctx.drawImage(image, position.x - position.r, position.y - position.r, position.r*2,position.r*2,0, 0, position.r*2, position.r*2);
+    ctx.save();
+    ctx.globalCompositeOperation = 'destination-in';
+    ctx.beginPath();
+    ctx.arc(preview.width-position.r, preview.height-position.r, position.r, 0, 2 * Math.PI);
+    ctx.closePath();
+    ctx.fill();
+    ctx.restore();
 
     preview.toBlob(blob=> {
         let url = URL.createObjectURL(blob);
@@ -138,7 +147,16 @@ function crop(ctx, position, preview, overlayContext ){
         a.href = url;
         a.download = 'image.png';
         a.dispatchEvent(new MouseEvent('click'));
-    })
+        preview.width = image.width;
+        preview.height = image.height;
+
+        let img = new Image();
+        img.src = url;
+        document.body.appendChild(img);
+    });
+
+
+
 }
 
 }());
