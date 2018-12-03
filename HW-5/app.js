@@ -140,7 +140,10 @@ function crop(ctx, position, preview, overlayContext,image ){
     ctx.closePath();
     ctx.fill();
     ctx.restore();
+    saving(preview, image);
+}
 
+function  saving(preview, image) {
     preview.toBlob(blob=> {
         let url = URL.createObjectURL(blob);
         let a = document.createElement('a');
@@ -154,9 +157,6 @@ function crop(ctx, position, preview, overlayContext,image ){
         img.src = url;
         document.body.appendChild(img);
     });
-
-
-
 }
 
 }());
