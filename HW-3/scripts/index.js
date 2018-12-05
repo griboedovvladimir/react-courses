@@ -1,6 +1,6 @@
 const preloader = new Image(200, 200);
 preloader.src = 'preloader.svg';
-preloader.style.cssText = 'position: absolute; top: 50%; margin: -100px 0 0 0'
+preloader.style.cssText = 'position: absolute; top: 50%; margin: -100px 0 0 0';
 
 function newsInit(id = 'people') {
     document.body.appendChild(preloader);
