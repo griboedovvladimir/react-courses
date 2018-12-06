@@ -2,28 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="851a5b89-b4f3-455a-8709-f13a86e5ec11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../hw-6/config/env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw-6/config/jest/cssTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw-6/config/jest/fileTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw-6/config/paths.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw-6/config/webpack.config.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw-6/config/webpack.config.prod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw-6/config/webpackDevServer.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw-6/public/preloader.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw-6/scripts/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw-6/scripts/start.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw-6/scripts/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw-6/src/helpers/dataParser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw-6/src/helpers/guid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw-6/src/services/ApiService.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw-6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw-6/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-6/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw-6/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-6/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw-6/src/components/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-6/src/components/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw-6/src/components/article/Article.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-6/src/components/article/Article.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw-6/src/components/menu/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-6/src/components/menu/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-6/.idea/hw-6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-6/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-6/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-6/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-6/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-6/.idea/workspace.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -142,7 +127,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="555" />
     <option name="y" value="75" />
     <option name="width" value="1270" />
@@ -205,7 +190,7 @@
       <workItem from="1542610831133" duration="1600000" />
       <workItem from="1542654138498" duration="4135000" />
       <workItem from="1542666808087" duration="488000" />
-      <workItem from="1544043113846" duration="8670000" />
+      <workItem from="1544043113846" duration="8828000" />
     </task>
     <task id="LOCAL-00001" summary="Create nav menu">
       <created>1544047749181</created>
@@ -218,7 +203,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15512000" />
+    <option name="totallyTimeSpent" value="15670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
