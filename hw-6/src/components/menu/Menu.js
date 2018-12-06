@@ -3,6 +3,11 @@ import './Menu.scss';
 
 class Menu extends Component {
 
+    constructor(props) {
+        super(props);
+        this.props = props;
+    }
+
     navSwitch = (e) => {
         let navItems = document.getElementsByClassName('navigate-items');
         for (let el of navItems) {
@@ -13,6 +18,7 @@ class Menu extends Component {
                 el.classList.add('active')
             }
         }
+        this.props.doSwitch(e.target.id);
     };
 
     render() {
@@ -20,7 +26,7 @@ class Menu extends Component {
             <div>
                 <header className="App-header">
                     <div className="logo">
-                        <img src="https://gc.onliner.by/images/logo/onliner_logo.v3@2x.png?token=1542621721"/>
+                        <img alt="logo" src="https://gc.onliner.by/images/logo/onliner_logo.v3@2x.png?token=1542621721"/>
                         <div>FAKE</div>
                     </div>
                     <div id="navigate" className="navigate">
