@@ -1,7 +1,7 @@
 import {dataParser} from "../helpers/dataParser";
 
 export class ApiService {
-    async getNews(id) {
+    static async getNews(id) {
         let response = await fetch(`backend/${id}.php`, {
             method: 'POST',
             headers: {

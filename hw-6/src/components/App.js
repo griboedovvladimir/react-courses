@@ -11,7 +11,7 @@ class App extends Component {
         this.state = {
             newsData: []
         };
-        this.apiService = new ApiService();
+        this.apiService = ApiService;
         this.getNewsData('people');
     }
 
