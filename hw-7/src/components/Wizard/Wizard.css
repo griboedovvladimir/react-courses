@@ -1,0 +1,14 @@
+.wizard {
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
