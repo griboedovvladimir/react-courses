@@ -1,1 +1,1 @@
-import {default} from './TransmissionChoice'
+export {default} from './TransmissionChoice'
