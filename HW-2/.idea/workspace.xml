@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b7e4d2f-9c5b-4561-85a5-32cf959829e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../hw-7/src/components/Summary/Summary.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/App/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/App/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/App/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/BrandChoice/BrandChoice.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/components/BrandChoice/BrandChoice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/components/Button/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/Button/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/components/Button/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/FuelCoice/FuelChoice.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/components/FuelChoice/FuelChoice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/FuelCoice/index.ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/components/FuelChoice/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/ModelChoice/ModelChoice.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/components/ModelChoice/ModelChoice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/Summary/Summary.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/components/Summary/Summary.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/TransmissionChoice/TransmissionChoice.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/components/TransmissionChoice/TransmissionChoice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/TransmissionChoice/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/components/TransmissionChoice/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/Wizard/Wizard.css" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/components/Wizard/Wizard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/Wizard/Wizard.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/components/Wizard/Wizard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw-7/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw-7/src/services/store.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/services/store.service.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
