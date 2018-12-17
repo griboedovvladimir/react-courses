@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/react-courses/hw-7/build/precache-manifest.2d97fc33bd77655d0e93c18502f52454.js"
+  "/react-courses/precache-manifest.963fe1e33546bfd634c422314a9b3fbe.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/react-courses/hw-7/build/index.html", {
+workbox.routing.registerNavigationRoute("/react-courses/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
