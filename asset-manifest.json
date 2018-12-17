@@ -1,13 +1,13 @@
 {
-  "main.css": "/react-courses/hw-7/static/css/main.ca45c608.chunk.css",
-  "main.js": "/react-courses/hw-7/static/js/main.64fa28d8.chunk.js",
-  "main.js.map": "/react-courses/hw-7/static/js/main.64fa28d8.chunk.js.map",
-  "static/js/1.be7b1f34.chunk.js": "/react-courses/hw-7/static/js/1.be7b1f34.chunk.js",
-  "static/js/1.be7b1f34.chunk.js.map": "/react-courses/hw-7/static/js/1.be7b1f34.chunk.js.map",
-  "runtime~main.js": "/react-courses/hw-7/static/js/runtime~main.82ef02a7.js",
-  "runtime~main.js.map": "/react-courses/hw-7/static/js/runtime~main.82ef02a7.js.map",
-  "static/css/main.ca45c608.chunk.css.map": "/react-courses/hw-7/static/css/main.ca45c608.chunk.css.map",
-  "index.html": "/react-courses/hw-7/index.html",
-  "precache-manifest.ce7c5e25f8cb38f567a8d4115ddbf33a.js": "/react-courses/hw-7/precache-manifest.ce7c5e25f8cb38f567a8d4115ddbf33a.js",
-  "service-worker.js": "/react-courses/hw-7/service-worker.js"
+  "main.css": "/react-courses/hw-7/build/static/css/main.ca45c608.chunk.css",
+  "main.js": "/react-courses/hw-7/build/static/js/main.81d56ea8.chunk.js",
+  "main.js.map": "/react-courses/hw-7/build/static/js/main.81d56ea8.chunk.js.map",
+  "static/js/1.be7b1f34.chunk.js": "/react-courses/hw-7/build/static/js/1.be7b1f34.chunk.js",
+  "static/js/1.be7b1f34.chunk.js.map": "/react-courses/hw-7/build/static/js/1.be7b1f34.chunk.js.map",
+  "runtime~main.js": "/react-courses/hw-7/build/static/js/runtime~main.2dff12fe.js",
+  "runtime~main.js.map": "/react-courses/hw-7/build/static/js/runtime~main.2dff12fe.js.map",
+  "static/css/main.ca45c608.chunk.css.map": "/react-courses/hw-7/build/static/css/main.ca45c608.chunk.css.map",
+  "index.html": "/react-courses/hw-7/build/index.html",
+  "precache-manifest.2d97fc33bd77655d0e93c18502f52454.js": "/react-courses/hw-7/build/precache-manifest.2d97fc33bd77655d0e93c18502f52454.js",
+  "service-worker.js": "/react-courses/hw-7/build/service-worker.js"
 }
