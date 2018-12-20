@@ -18,7 +18,7 @@ class FuelChoice extends Component {
         StoreService.addToStore({fuel: e.target.value});
     };
 
-    focusEvents = (e) => {
+    focusEventHandler = (e) => {
         this.addToStore(e);
         this.props.changeUndisabled();
     };
@@ -26,9 +26,9 @@ class FuelChoice extends Component {
     render() {
         let options = this.props.renderData.map((fuel, i) => <option key={i}>{fuel}</option>);
         return (
-            <form onFocus={this.focusEvents} id="form">
+            <form id="form" onFocus={this.focusEventHandler}>
                 <label htmlFor="fuel">Choice fuel</label>
-                <select defaultValue={this.selectedFuel} onChange={this.addToStore} name="fuel" id="fuel">
+                <select id="fuel" name="fuel" defaultValue={this.selectedFuel} onChange={this.addToStore}>
                     ${options}
                 </select>
             </form>

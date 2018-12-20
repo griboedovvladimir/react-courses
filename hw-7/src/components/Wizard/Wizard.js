@@ -6,7 +6,7 @@ import {data} from "../../data/data";
 import ModelChoice from "../ModelChoice";
 import FuelChoice from "../FuelChoice";
 import TransmissionChoice from "../TransmissionChoice";
-import Summary from "../Summary/Summary";
+import Summary from "../Summary";
 import StoreService from '../../services/store.service'
 
 
@@ -14,7 +14,6 @@ class Wizard extends Component {
     constructor(props) {
         super(props);
         this.data = data;
-        this.modelChoiceData = '';
         this.state = {
             currentStep: 'brand',
             disabled: true

@@ -1,1 +1,1 @@
-export {default} from 'Summary.js';
+export {default} from './Summary';

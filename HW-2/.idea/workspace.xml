@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b7e4d2f-9c5b-4561-85a5-32cf959829e0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/build/precache-manifest.d459a0480e1ac6afd7d49128c20bafb3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/build/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/build/static/js/main.8a643fd0.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/build/static/js/main.8a643fd0.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/build/static/js/runtime~main.229c360f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/build/static/js/runtime~main.229c360f.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/BrandChoice/BrandChoice.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/components/BrandChoice/BrandChoice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/FuelChoice/FuelChoice.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/components/FuelChoice/FuelChoice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/ModelChoice/ModelChoice.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/components/ModelChoice/ModelChoice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/Summary/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/components/Summary/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/TransmissionChoice/TransmissionChoice.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/components/TransmissionChoice/TransmissionChoice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/Wizard/Wizard.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/components/Wizard/Wizard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/Wizard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/components/Wizard/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,7 +46,7 @@
     <session id="-2099363526">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="2" />
@@ -79,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/scripts/ModelChoice.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="257">
-              <caret line="52" column="55" lean-forward="true" selection-start-line="52" selection-start-column="55" selection-end-line="52" selection-end-column="55" />
+              <caret line="52" column="55" selection-start-line="52" selection-start-column="55" selection-end-line="52" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -97,7 +117,7 @@
         <entry file="file://$PROJECT_DIR$/scripts/Store.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -173,17 +193,17 @@
       <updated>1542609783395</updated>
       <workItem from="1542609784664" duration="41000" />
       <workItem from="1544464173269" duration="5915000" />
-      <workItem from="1544994930742" duration="659000" />
+      <workItem from="1544994930742" duration="1263000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6615000" />
+    <option name="totallyTimeSpent" value="7219000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -195,7 +215,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32907802" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -233,7 +253,7 @@
     <entry file="file://$PROJECT_DIR$/scripts/Store.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -247,7 +267,7 @@
     <entry file="file://$PROJECT_DIR$/scripts/ModelChoice.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
-          <caret line="52" column="55" lean-forward="true" selection-start-line="52" selection-start-column="55" selection-end-line="52" selection-end-column="55" />
+          <caret line="52" column="55" selection-start-line="52" selection-start-column="55" selection-end-line="52" selection-end-column="55" />
         </state>
       </provider>
     </entry>

@@ -18,7 +18,7 @@ class TransmissionChoice extends Component {
         StoreService.addToStore({transmission: e.target.value});
     };
 
-    focusEvents = (e) => {
+    focusEventHandler = (e) => {
         this.addToStore(e);
         this.props.changeUndisabled();
     };
@@ -26,10 +26,10 @@ class TransmissionChoice extends Component {
     render() {
         let options = this.props.renderData.map((model, i) => <option key={i}>{model}</option>);
         return (
-            <form onFocus={this.focusEvents} id="transmission">
+            <form id="transmission" onFocus={this.focusEventHandler}>
                 <label htmlFor="transmission">Choice transmission</label>
-                <select defaultValue={this.selectedTransmission} onChange={this.addToStore} name="transmission"
-                        id="transmission">
+                <select name="transmission" id="transmission" defaultValue={this.selectedTransmission}
+                        onChange={this.addToStore}>
                     ${options}
                 </select>
             </form>

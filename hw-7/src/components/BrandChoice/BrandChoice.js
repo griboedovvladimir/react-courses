@@ -13,7 +13,7 @@ class BrandChoice extends Component {
         StoreService.addToStore({brand: e.target.value});
     };
 
-    focusEvents = (e) => {
+    focusEventHandler = (e) => {
         this.addToStore(e);
         this.props.changeUndisabled();
     };
@@ -21,9 +21,9 @@ class BrandChoice extends Component {
     render() {
         let options = Object.keys(this.props.renderData).map((brand, i) => <option key={i}>{brand}</option>);
         return (
-            <form onFocus={this.focusEvents} id="form">
+            <form id="form" onFocus={this.focusEventHandler}>
                 <label htmlFor="brand">Choice brand</label>
-                <select defaultValue={this.selectedBrand} onChange={this.addToStore} name="brand" id="brand">
+                <select id="brand" name="brand" defaultValue={this.selectedBrand} onChange={this.addToStore}>
                     ${options}
                 </select>
             </form>
