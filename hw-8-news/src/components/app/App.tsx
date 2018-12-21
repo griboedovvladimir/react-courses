@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
+import React, {Component, ReactNode} from 'react';
 import './App.css';
 import Menu from '../menu';
 import {ApiService} from '../../services/ApiService.service';
 import Article from '../article';
-import {DataInterface} from "../../interfaces/data.Interface";
+import {IDataInterface} from "../../interfaces/data.Interface";
 
 class App extends Component {
     public apiService = new ApiService();
@@ -16,7 +16,7 @@ class App extends Component {
         this.getNewsData('people');
     }
 
-    switchInit = (id: string): void => {
+    public switchInit = (id: string): void => {
         this.getNewsData(id);
     };
 
@@ -27,8 +27,8 @@ class App extends Component {
         });
     }
 
-    public render() {
-        const news = this.state.newsData.map((data: DataInterface, i: number) => {
+    public render(): ReactNode {
+        const news = this.state.newsData.map((data: IDataInterface, i: number): ReactNode => {
             return <Article key={i} newsData={data}/>
         });
         return (

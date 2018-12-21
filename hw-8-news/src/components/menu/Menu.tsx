@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, ReactNode}  from 'react';
 
 class Menu extends Component {
     public props: any;
@@ -24,7 +24,7 @@ class Menu extends Component {
         this.props.doSwitch(e.target.id);
     };
 
-    render() {
+    public render(): ReactNode {
         return (
             <div>
                 <header className="App-header">

@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, ReactNode}  from 'react';
 
 class Article extends Component {
     public props: any;
@@ -7,7 +7,7 @@ class Article extends Component {
         super(props);
     }
 
-    render() {
+    public render(): ReactNode {
         return (
             <div className="news-wrapper">
                 <img alt="news" className="news-img" src={this.props.newsData.img}/>

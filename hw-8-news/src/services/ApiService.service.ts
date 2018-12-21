@@ -1,8 +1,8 @@
 import {dataParser} from "../helpers/dataParser";
-import {DataInterface} from "../interfaces/data.Interface";
+import {IDataInterface} from "../interfaces/data.Interface";
 
 export class ApiService {
-     async getNews(id: string): Promise<Array<DataInterface>> {
+     async getNews(id: string): Promise<Array<IDataInterface>> {
         const response = await fetch(`backend/${id}.php`, {
             method: 'POST',
             headers: {

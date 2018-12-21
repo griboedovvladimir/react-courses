@@ -1,11 +1,11 @@
-import {DataInterface} from "../interfaces/data.Interface";
+import {IDataInterface} from "../interfaces/data.Interface";
 
-export function dataParser(response: string, id: string): Array<DataInterface> {
+export function dataParser(response: string, id: string): Array<IDataInterface> {
     let data = response.split(' class="news-tidings__item news-tidings__item_1of3 news-tidings__item_condensed "');
     data.pop();
     data.shift();
 
-    return data.reduce((cnt: Array<DataInterface>, el: string): Array<DataInterface> => {
+    return data.reduce((cnt: Array<IDataInterface>, el: string): Array<IDataInterface> => {
         let img = el.split(`<div class="news-tidings__image news-helpers_hide_mobile-small" style="background-image: url(`)[1]
             .split(`);"></div>`)[0];
         let link = `https://${id}.onliner.by` + el.split(`<a href="`)[1]
