@@ -15,7 +15,6 @@ export function dataParser(response: string, id: string): Array<IDataInterface> 
         let description = el.split(`<div class="news-tidings__speech news-helpers_hide_mobile-small">`)[1]
             .split(`</div>`)[0].trim();
         cnt.push({img, link, title, description});
-
         return cnt;
     }, []);
 

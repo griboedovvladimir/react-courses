@@ -1,16 +1,19 @@
-import React, {Component, ReactNode}  from 'react';
+import React from 'react';
+import {IDataInterface} from "../../interfaces/data.Interface";
 
-class Article extends Component <any,any> {
-
-    public render(): ReactNode {
-        return (
-            <div className="news-wrapper">
-                <img alt="news" className="news-img" src={this.props.newsData.img}/>
-                <a className="news-title" href={this.props.newsData.link}>{this.props.newsData.title}</a>
-                <div className="news-description">{this.props.newsData.description}</div>
-            </div>
-        )
-    }
+interface ArticlePropsTypes {
+    key: number;
+    newsData: IDataInterface;
 }
+
+const Article: React.FunctionComponent<ArticlePropsTypes> = ({key, newsData}) => {
+    return (
+        <div className="news-wrapper">
+            <img alt="news" className="news-img" src={newsData.img}/>
+            <a className="news-title" href={newsData.link}>{newsData.title}</a>
+            <div className="news-description">{newsData.description}</div>
+        </div>
+    )
+};
 
 export default Article;

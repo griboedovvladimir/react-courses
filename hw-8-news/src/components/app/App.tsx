@@ -5,7 +5,12 @@ import {ApiService} from '../../services/ApiService.service';
 import Article from '../article';
 import {IDataInterface} from "../../interfaces/data.Interface";
 
-class App extends Component <any, any>{
+interface AppStateTypes{
+    newsData: Array<IDataInterface>;
+    showPreloader: boolean;
+}
+
+class App extends Component <{}, AppStateTypes> {
     public apiService = new ApiService();
     public state = {
         newsData: [],
@@ -29,7 +34,7 @@ class App extends Component <any, any>{
 
     public render(): ReactNode {
         const news = this.state.newsData.map((data: IDataInterface, i: number): ReactNode => {
-            return <Article key={i} newsData={data}/>
+            return <Article newsData={data} key={i}/>
         });
         return (
             <div className="App">

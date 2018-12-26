@@ -1,6 +1,19 @@
-import React, {Component, ReactNode}  from 'react';
+import React, {Component, ReactNode} from 'react';
 
-class Menu extends Component<any, any> {
+interface MenuStateTypes {
+    people: string;
+    auto: string;
+    tech: string;
+    realt: string;
+
+    [x: string]: string;
+}
+
+interface MenuPropsTypes {
+    doSwitch: (id: string) => void;
+}
+
+class Menu extends Component<MenuPropsTypes, MenuStateTypes> {
     public state = {
         people: 'active',
         auto: '',
@@ -8,15 +21,16 @@ class Menu extends Component<any, any> {
         realt: ''
     };
 
-    navSwitch = (e: any): void => {
+    navSwitch = (e: React.MouseEvent): void => {
+        let target = e.target as HTMLElement;
         for (let key in this.state) {
             this.setState({[key]: ''});
-            if (e.target.id === key) {
+            if (target.id === key) {
                 this.setState({[key]: 'active'});
             }
         }
 
-        this.props.doSwitch(e.target.id);
+        this.props.doSwitch(target.id);
     };
 
     public render(): ReactNode {
