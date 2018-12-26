@@ -1,11 +1,6 @@
 import React, {Component, ReactNode}  from 'react';
 
-class Article extends Component {
-    public props: any;
-
-    constructor(props: any) {
-        super(props);
-    }
+class Article extends Component <any,any> {
 
     public render(): ReactNode {
         return (

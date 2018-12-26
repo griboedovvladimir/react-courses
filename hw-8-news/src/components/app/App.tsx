@@ -5,7 +5,7 @@ import {ApiService} from '../../services/ApiService.service';
 import Article from '../article';
 import {IDataInterface} from "../../interfaces/data.Interface";
 
-class App extends Component {
+class App extends Component <any, any>{
     public apiService = new ApiService();
     public state = {
         newsData: [],

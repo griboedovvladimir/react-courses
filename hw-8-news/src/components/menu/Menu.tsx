@@ -1,17 +1,12 @@
 import React, {Component, ReactNode}  from 'react';
 
-class Menu extends Component {
-    public props: any;
+class Menu extends Component<any, any> {
     public state = {
         people: 'active',
         auto: '',
         tech: '',
         realt: ''
     };
-
-    constructor(props: any) {
-        super(props);
-    }
 
     navSwitch = (e: any): void => {
         for (let key in this.state) {
