@@ -21,7 +21,7 @@ class Menu extends Component<MenuPropsTypes, MenuStateTypes> {
         realt: ''
     };
 
-    navSwitch = (e: React.MouseEvent): void => {
+    navSwitch = (e: React.MouseEvent<HTMLElement>): void => {
         let target = e.target as HTMLElement;
         for (let key in this.state) {
             this.setState({[key]: ''});

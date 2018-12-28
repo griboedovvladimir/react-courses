@@ -5,38 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3937b521-dc32-47e3-b881-f93752ea63b6" name="Default Changelist" comment="last changes">
-      <change afterPath="$PROJECT_DIR$/hw-8-news/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw-8-news/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw-8-news/public/preloader.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw-8-news/src/components/app/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw-8-news/src/components/article/Article.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw-8-news/src/components/article/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw-8-news/src/components/menu/Menu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw-8-news/src/components/menu/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw-8-news/src/helpers/dataParser.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw-8-news/src/interfaces/data.Interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw-8-news/src/services/ApiService.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw-8-news/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw-9-wizard/src/components/BrandChoice/BrandChoice.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw-9-wizard/src/components/BrandChoice/BrandChoice.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw-9-wizard/src/components/BrandChoice/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw-9-wizard/src/components/ModelChoice/ModelChoice.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw-9-wizard/src/components/ModelChoice/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw-9-wizard/src/components/Wizard/WIzard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw-9-wizard/src/components/Wizard/Wizard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw-9-wizard/src/components/Wizard/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw-9-wizard/src/data/data.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw-9-wizard/src/services/store.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HW-2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw-7/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/hw-7/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw-7/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hw-7/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw-7/build/precache-manifest.d459a0480e1ac6afd7d49128c20bafb3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw-7/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/hw-7/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw-7/build/static/js/main.8a643fd0.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw-7/build/static/js/main.8a643fd0.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw-7/build/static/js/runtime~main.229c360f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw-7/build/static/js/runtime~main.229c360f.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw-7/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/hw-7/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw-7/src/components/BrandChoice/BrandChoice.js" beforeDir="false" afterPath="$PROJECT_DIR$/hw-7/src/components/BrandChoice/BrandChoice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw-7/src/components/FuelChoice/FuelChoice.js" beforeDir="false" afterPath="$PROJECT_DIR$/hw-7/src/components/FuelChoice/FuelChoice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw-7/src/components/ModelChoice/ModelChoice.js" beforeDir="false" afterPath="$PROJECT_DIR$/hw-7/src/components/ModelChoice/ModelChoice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw-7/src/components/Summary/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/hw-7/src/components/Summary/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw-7/src/components/TransmissionChoice/TransmissionChoice.js" beforeDir="false" afterPath="$PROJECT_DIR$/hw-7/src/components/TransmissionChoice/TransmissionChoice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw-7/src/components/Wizard/Wizard.js" beforeDir="false" afterPath="$PROJECT_DIR$/hw-7/src/components/Wizard/Wizard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw-7/src/components/Wizard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/hw-7/src/components/Wizard/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw-7/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/hw-7/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,28 +31,28 @@
     <session id="-676843195">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="14" />
-          <entry key="gitignore" value="4" />
+          <entry key="css" value="19" />
+          <entry key="gitignore" value="5" />
           <entry key="html" value="1" />
-          <entry key="js" value="70" />
+          <entry key="js" value="80" />
           <entry key="json" value="4" />
           <entry key="lock" value="1" />
           <entry key="md" value="1" />
           <entry key="scss" value="4" />
-          <entry key="ts" value="1" />
-          <entry key="tsx" value="4" />
+          <entry key="ts" value="8" />
+          <entry key="tsx" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="14" />
+          <entry key="CSS" value="19" />
           <entry key="HTML" value="1" />
           <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="70" />
-          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="JavaScript" value="80" />
+          <entry key="PLAIN_TEXT" value="6" />
           <entry key="SCSS" value="4" />
-          <entry key="TypeScript" value="1" />
-          <entry key="TypeScript JSX" value="4" />
+          <entry key="TypeScript" value="8" />
+          <entry key="TypeScript JSX" value="12" />
           <entry key="yarn.lock" value="1" />
         </counts>
       </usages-collector>
@@ -80,17 +60,21 @@
         <counts>
           <entry key="css" value="212" />
           <entry key="gitignore" value="7" />
-          <entry key="js" value="2716" />
+          <entry key="js" value="2717" />
           <entry key="json" value="88" />
           <entry key="lock" value="1" />
+          <entry key="ts" value="34" />
+          <entry key="tsx" value="228" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="212" />
           <entry key="JSON" value="88" />
-          <entry key="JavaScript" value="2716" />
+          <entry key="JavaScript" value="2717" />
           <entry key="PLAIN_TEXT" value="7" />
+          <entry key="TypeScript" value="34" />
+          <entry key="TypeScript JSX" value="228" />
           <entry key="yarn.lock" value="1" />
         </counts>
       </usages-collector>
@@ -99,13 +83,14 @@
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TypeScriptServerServiceImpl" value="2" />
+          <entry key="TypeScriptServerServiceImpl" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -113,9 +98,80 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hw-8-news/src/index.tsx">
+        <entry file="file://$PROJECT_DIR$/hw-9-wizard/src/components/Wizard/index.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state>
+              <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hw-7/src/components/Button/Button.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hw-8-news/src/components/app/App.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="42" column="54" lean-forward="true" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hw-8-news/src/components/menu/Menu.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hw-7/src/components/BrandChoice/BrandChoice.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hw-7/src/components/Wizard/Wizard.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hw-7/src/components/Wizard/Wizard.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="79" column="16" lean-forward="true" selection-end-line="93" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hw-7/src/data/data.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="8" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hw-8-news/src/components/article/Article.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -123,82 +179,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hw-6/src/components/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hw-6/src/components/menu/Menu.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" column="5" selection-end-line="43" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hw-6/src/components/article/Article.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="21" column="18" selection-end-line="21" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hw-6/src/components/article/Article.scss">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hw-6/src/components/menu/Menu.scss">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hw-6/src/components/App.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="90" column="33" selection-end-line="103" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hw-6/src/services/ApiService.service.js">
+        <entry file="file://$PROJECT_DIR$/hw-7/src/services/store.service.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="12" selection-end-column="1" />
+              <caret selection-end-line="21" selection-end-column="1" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hw-6/src/helpers/dataParser.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hw-6/src/index.scss">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -209,6 +196,7 @@
         <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -223,11 +211,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HW-2/scripts/Summary.js" />
-        <option value="$PROJECT_DIR$/HW-2/scripts/Store.js" />
-        <option value="$PROJECT_DIR$/HW-2/scripts/BrandChoice.js" />
-        <option value="$PROJECT_DIR$/HW-2/scripts/ModelChoice.js" />
-        <option value="$PROJECT_DIR$/HW-3/backend.php" />
         <option value="$PROJECT_DIR$/../Desktop/download.svg" />
         <option value="$PROJECT_DIR$/HW-3/index.html" />
         <option value="$PROJECT_DIR$/HW-3/scripts/index.js" />
@@ -255,7 +238,6 @@
         <option value="$PROJECT_DIR$/hw-7/src/components/Button/index.js" />
         <option value="$PROJECT_DIR$/hw-7/src/components/BrandChoice/index.js" />
         <option value="$PROJECT_DIR$/hw-7/src/components/TransmissionChoice/index.js" />
-        <option value="$PROJECT_DIR$/hw-7/src/components/Summary/Summary.js" />
         <option value="$PROJECT_DIR$/hw-7/src/components/Summary/Summary.css" />
         <option value="$PROJECT_DIR$/hw-7/src/components/App/App.js" />
         <option value="$PROJECT_DIR$/hw-7/src/components/Button/Button.js" />
@@ -274,6 +256,12 @@
         <option value="$PROJECT_DIR$/yarn.lock" />
         <option value="$PROJECT_DIR$/hw-8-news/src/index.js" />
         <option value="$PROJECT_DIR$/hw-8-news/src/App.tsx" />
+        <option value="$PROJECT_DIR$/hw-7/src/components/Summary/Summary.js" />
+        <option value="$PROJECT_DIR$/hw-8-news/src/components/app/App.tsx" />
+        <option value="$PROJECT_DIR$/hw-8-news/src/components/article/Article.tsx" />
+        <option value="$PROJECT_DIR$/hw-8-news/src/services/ApiService.service.ts" />
+        <option value="$PROJECT_DIR$/hw-9-wizard/src/components/wizard/index.ts" />
+        <option value="$PROJECT_DIR$/hw-8-news/src/components/menu/Menu.tsx" />
       </list>
     </option>
   </component>
@@ -293,18 +281,19 @@
     <handled-path value="$PROJECT_DIR$/hw-6/node_modules" />
     <handled-path value="$PROJECT_DIR$/hw-7/node_modules" />
     <handled-path value="$PROJECT_DIR$/hw-8-news/node_modules" />
+    <handled-path value="$PROJECT_DIR$/hw-9-wizard/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/hw-6/package.json" />
       <path value="$PROJECT_DIR$/hw-7/package.json" />
       <path value="$PROJECT_DIR$/hw-8-news/package.json" />
+      <path value="$PROJECT_DIR$/hw-9-wizard/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="1925" />
-    <option name="height" value="1040" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="width" value="1294" />
+    <option name="height" value="983" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -312,7 +301,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -323,47 +311,83 @@
             <path>
               <item name="react-courses" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-courses" type="462c0819:PsiDirectoryNode" />
-              <item name="hw-6" type="462c0819:PsiDirectoryNode" />
+              <item name="hw-7" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-courses" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-courses" type="462c0819:PsiDirectoryNode" />
-              <item name="hw-6" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-courses" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-courses" type="462c0819:PsiDirectoryNode" />
-              <item name="hw-6" type="462c0819:PsiDirectoryNode" />
+              <item name="hw-7" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-courses" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-courses" type="462c0819:PsiDirectoryNode" />
+              <item name="hw-7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-courses" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-courses" type="462c0819:PsiDirectoryNode" />
+              <item name="hw-8-news" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-courses" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-courses" type="462c0819:PsiDirectoryNode" />
+              <item name="hw-8-news" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-courses" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-courses" type="462c0819:PsiDirectoryNode" />
+              <item name="hw-8-news" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-courses" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-courses" type="462c0819:PsiDirectoryNode" />
+              <item name="hw-8-news" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-courses" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-courses" type="462c0819:PsiDirectoryNode" />
+              <item name="hw-8-news" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/hw-8-news" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hw-9-wizard" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Other File Types" />
     <property name="ts.external.directory.path" value="C:\projects\react-courses\hw-8-news\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\projects\react-courses\hw-8-news" />
-      <recent name="$PROJECT_DIR$/HW-3" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\react-courses\hw-9-wizard\src\components\wizard" />
+      <recent name="C:\projects\react-courses\hw-9-wizard\src\components" />
       <recent name="C:\projects\react-courses\hw-7\src\components" />
       <recent name="C:\projects\react-courses\hw-7\src" />
       <recent name="C:\projects\react-courses\hw-7\src\components\App" />
-      <recent name="$PROJECT_DIR$/HW-5" />
-      <recent name="C:\projects\react-courses\HW-2\scripts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\react-courses\hw-8-news" />
+      <recent name="$PROJECT_DIR$/HW-3" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -377,6 +401,18 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Start" type="js.build_tools.npm" factoryName="npm">
+      <package-json value="$PROJECT_DIR$/hw-9-wizard/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -404,7 +440,8 @@
       <workItem from="1543255467532" duration="19379000" />
       <workItem from="1544267329115" duration="21372000" />
       <workItem from="1544718354092" duration="25166000" />
-      <workItem from="1545168633555" duration="7061000" />
+      <workItem from="1545168633555" duration="7734000" />
+      <workItem from="1545369718852" duration="30796000" />
     </task>
     <task id="LOCAL-00001" summary="last changes">
       <created>1544718391215</created>
@@ -427,14 +464,35 @@
       <option name="project" value="LOCAL" />
       <updated>1544998615742</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="last changes">
+      <created>1545370346902</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1545370346902</updated>
+    </task>
+    <task id="LOCAL-00005" summary="last changes">
+      <created>1545802940112</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1545802940112</updated>
+    </task>
+    <task id="LOCAL-00006" summary="last changes">
+      <created>1545866179440</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1545866179440</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170487000" />
+    <option name="totallyTimeSpent" value="201956000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24124256" />
@@ -442,16 +500,16 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49915966" visible="true" weight="0.28936172" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49915966" weight="0.28936172" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="TypeScript" order="11" />
+      <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -487,135 +545,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="last changes" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hw-6/src/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw-7/src/components/BrandChoice/BrandChoice.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw-7/src/components/Button/Button.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw-7/src/components/Button/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw-7/src/components/BrandChoice/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw-7/src/components/ModelChoice/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="43" lean-forward="true" selection-start-column="43" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw-7/src/components/Summary/Summary.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw-7/src/components/App/index.js" />
-    <entry file="file://$PROJECT_DIR$/hw-7/src/components/App/App.js" />
-    <entry file="file://$PROJECT_DIR$/hw-7/src/components/App/App.css" />
-    <entry file="file://$PROJECT_DIR$/hw-7/src/index.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw-7/src/components/Wizard/Wizard.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw-7/src/services/store.service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw-7/src/data/data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/hw-7/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw-7/build/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw-7/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw-7/src/components/FuelChoice/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw-7/src/components/BrandChoice/BrandChoice.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw-7/src/components/Button/Button.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw-7/src/components/FuelChoice/FuelChoice.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw-7/src/components/ModelChoice/ModelChoice.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hw-7/src/components/TransmissionChoice/TransmissionChoice.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -627,13 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="33" selection-start-column="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw-7/src/components/Summary/Summary.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -653,13 +575,6 @@
     <entry file="file://$PROJECT_DIR$/hw-8-news/package.json" />
     <entry file="file://$PROJECT_DIR$/hw-8-news/src/App.test.js" />
     <entry file="file://$PROJECT_DIR$/hw-8-news/src/index.jsx" />
-    <entry file="file://$PROJECT_DIR$/hw-7/src/components/Wizard/Wizard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hw-7/src/components/Wizard/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -674,24 +589,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hw-8-news/src/components/app/App.test.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw-8-news/src/components/app/App.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hw-8-news/src/components/app/App.test.tsx" />
     <entry file="file://$PROJECT_DIR$/hw-8-news/src/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -701,37 +599,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hw-6/src/index.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw-6/src/helpers/dataParser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw-6/src/services/ApiService.service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw-6/src/components/menu/Menu.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw-6/src/components/App.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="90" column="33" selection-end-line="103" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hw-6/src/components/menu/Menu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
+        <state relative-caret-position="112">
           <caret line="8" column="5" selection-end-line="43" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw-6/src/components/article/Article.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="21" column="18" selection-end-line="21" selection-end-column="23" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -741,23 +622,210 @@
     <entry file="file://$PROJECT_DIR$/hw-6/src/components/article/Article.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hw-6/src/components/article/Article.js">
+    <entry file="file://$PROJECT_DIR$/hw-6/src/components/menu/Menu.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw-6/src/components/App.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="18" selection-end-line="21" selection-end-column="23" />
+        <state relative-caret-position="1440">
+          <caret line="90" column="33" selection-end-line="103" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw-6/src/helpers/dataParser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw-6/src/index.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw-6/src/components/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-347">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hw-6/src/components/App.js">
+    <entry file="file://$PROJECT_DIR$/hw-7/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        <state relative-caret-position="176">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw-7/src/components/Button/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw-7/src/components/BrandChoice/BrandChoice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw-7/src/components/Button/Button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw-7/src/components/ModelChoice/ModelChoice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw-7/src/components/Summary/Summary.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw-8-news/src/components/app/index.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw-8-news/src/components/article/index.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw-8-news/src/components/menu/index.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw-8-news/src/components/app/App.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw-8-news/src/interfaces/data.Interface.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw-8-news/src/helpers/dataParser.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw-8-news/src/services/ApiService.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw-6/src/services/ApiService.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw-9-wizard/src/components/Wizard/WIzard.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw-9-wizard/src/components/wizard/App.test.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw-9-wizard/src/components/Wizard/Wizard.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw-9-wizard/src/components/Wizard/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw-7/src/components/Button/Button.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw-7/src/components/BrandChoice/BrandChoice.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw-7/src/data/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw-7/src/services/store.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw-7/src/components/Wizard/Wizard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw-7/src/components/Wizard/Wizard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="79" column="16" lean-forward="true" selection-end-line="93" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw-8-news/src/components/app/App.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="42" column="54" lean-forward="true" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw-8-news/src/components/article/Article.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw-8-news/src/components/menu/Menu.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
