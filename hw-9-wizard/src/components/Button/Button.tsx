@@ -1,14 +1,18 @@
-import React, {Component} from 'react';
+import React, {FC} from 'react';
 import './Button.css'
 
-class Button extends Component {
-
-    render() {
-        return (
-            <button onClick={this.props.clickCallback} disabled={this.props.disabled}
-                    type="button">{this.props.destiny}</button>
-        )
-    }
+interface IButtonProps {
+    destiny: string,
+    clickCallback: () => void;
+    disabled: boolean;
 }
+
+const Button: FC<IButtonProps> = (props)=> {
+        return (
+            <button onClick={props.clickCallback} disabled={props.disabled}
+                    type="button">{props.destiny}</button>
+        )
+
+};
 
 export default Button;

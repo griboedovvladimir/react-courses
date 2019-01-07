@@ -1,6 +1,9 @@
-let instance = null;
+import {IChoice} from "../interfaces/interfaces";
+
+let instance: any = null;
 
 export default class StoreService {
+    public choice: any;
 
     constructor() {
         if (!instance) {
@@ -10,13 +13,12 @@ export default class StoreService {
         return instance;
     }
 
-    public choice = {};
 
-    public addToStore(choice): void {
-        StoreService.choice = {...StoreService.choice, ...choice};
+    public addToStore(choice: any): void {
+        this.choice = {...this.choice, ...choice};
     }
 
-    public getStore() {
-        return StoreService.choice;
+    public getStore(): IChoice {
+        return this.choice;
     }
 }

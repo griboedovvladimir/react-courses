@@ -1,12 +1,12 @@
-import React, {Component} from 'react';
+import React, {FC} from 'react';
 import StoreService from "../../services/store.service";
 import './Summary.css';
 
 
-class Summary extends Component {
-    render() {
-        let list = Object.keys(StoreService.getStore()).map((el, i) => <li
-            key={i}><span>{el}</span> : {StoreService.getStore()[el]}</li>);
+const Summary:FC = () => {
+    const storeService = new StoreService();
+        let list = Object.keys(storeService.getStore()).map((el, i) => <li
+            key={i}><span>{el}</span> : {storeService.getStore()[el]}</li>);
         return (
             <div id="form">
                 <h2>Your choice:</h2>
@@ -15,7 +15,6 @@ class Summary extends Component {
                 </ul>
             </div>
         )
-    }
-}
+};
 
 export default Summary;

@@ -1,1 +1,1 @@
-export { default } from './ModelChoice.js';
+export { default } from './ModelChoice';

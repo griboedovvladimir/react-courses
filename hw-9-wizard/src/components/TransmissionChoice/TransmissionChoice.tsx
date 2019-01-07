@@ -1,30 +1,28 @@
 import React, {Component} from 'react';
 import StoreService from "../../services/store.service";
+import {IStepsProps} from '../../interfaces/interfaces';
 
-class TransmissionChoice extends Component {
+class TransmissionChoice extends Component <IStepsProps, {}> {
+    private storeService = new StoreService();
+    private selectedTransmission = this.storeService.getStore() ? this.storeService.getStore().transmission : '';
 
-    constructor() {
-        super();
-        this.selectedTransmission = StoreService.getStore() ? StoreService.getStore().transmission : null;
-    }
-
-    componentDidMount() {
+    public componentDidMount(): void {
         if (this.selectedTransmission) {
-            this.props.changeUndisabled();
+            this.props.changeEnabled();
         }
     }
 
-    addToStore = (e) => {
-        StoreService.addToStore({transmission: e.target.value});
+    private addToStore = (e: React.ChangeEvent<HTMLSelectElement> | React.FocusEvent<HTMLFormElement>) => {
+        this.storeService.addToStore({transmission: e.target.value});
     };
 
-    focusEventHandler = (e) => {
+    private focusEventHandler = (e: React.FocusEvent<HTMLFormElement>) => {
         this.addToStore(e);
-        this.props.changeUndisabled();
+        this.props.changeEnabled();
     };
 
-    render() {
-        let options = this.props.renderData.map((model, i) => <option key={i}>{model}</option>);
+    public render(): React.ReactNode {
+        let options = this.props.renderData.map((model: string, i: number) => <option key={i}>{model}</option>);
         return (
             <form id="transmission" onFocus={this.focusEventHandler}>
                 <label htmlFor="transmission">Choice transmission</label>

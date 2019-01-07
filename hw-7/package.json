@@ -2,7 +2,6 @@
   "name": "hw-7",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://griboedovvladimir.github.io/react-courses",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.6.3",

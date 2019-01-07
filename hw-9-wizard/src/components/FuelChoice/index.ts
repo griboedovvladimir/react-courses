@@ -1,1 +1,1 @@
-export { default } from './FuelChoice.js';
+export { default } from './FuelChoice';

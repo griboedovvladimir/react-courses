@@ -1,28 +1,29 @@
 import React, {Component} from 'react';
 import './Wizard.css';
-import BrandChoice from "../BrandChoice/index";
-import Button from "../Button";
-import {data} from "../../data/data";
-import ModelChoice from "../ModelChoice/index";
-import FuelChoice from "../FuelChoice";
-import TransmissionChoice from "../TransmissionChoice";
-import Summary from "../Summary";
+import BrandChoice from '../BrandChoice';
+import Button from '../Button';
+import {data} from '../../data/data';
+import ModelChoice from '../ModelChoice';
+import FuelChoice from '../FuelChoice';
+import TransmissionChoice from '../TransmissionChoice';
+import Summary from '../Summary';
 import StoreService from '../../services/store.service'
+import { IData } from '../../interfaces/interfaces'
 
+interface IWizardState {
+    currentStep: string;
+    disabled: boolean
+}
 
-class Wizard extends Component < {}, any>{
-    public data = data;
-    private modelChoiceData: any;
+class Wizard extends Component < {}, IWizardState>{
+    private data: IData = data;
+    private storeService = new StoreService();
+    public state = {
+        currentStep: 'brand',
+        disabled: true
+    };
 
-    constructor(props: object) {
-        super(props);
-        this.state = {
-            currentStep: 'brand',
-            disabled: true
-        }
-    }
-
-    doNextStep = () => {
+    private doNextStep = () => {
         this.setState({disabled: true});
         if (this.state.currentStep === 'brand') {
             this.setState({currentStep: 'model'});
@@ -35,7 +36,7 @@ class Wizard extends Component < {}, any>{
         }
     };
 
-    doBackStep = () => {
+    private doBackStep = () => {
         this.setState({disabled: false});
         if (this.state.currentStep === 'summary') {
             this.setState({currentStep: 'transmission'});
@@ -48,25 +49,25 @@ class Wizard extends Component < {}, any>{
         }
     };
 
-    initStep(name) {
+    private initStep(name: string): React.ReactNode {
         let activeStep;
         switch (name) {
             case 'brand':
-                activeStep = <BrandChoice changeUndisabled={this.enableNextButton} renderData={this.data.brand}/>;
+                activeStep = <BrandChoice changeEnabled={this.enableNextButton} renderData={this.data.brand}/>;
                 break;
             case 'model':
-                activeStep = <ModelChoice changeUndisabled={this.enableNextButton}
-                                          renderData={this.data.brand[StoreService.getStore().brand]}/>;
+                activeStep = <ModelChoice changeEnabled={this.enableNextButton}
+                                          renderData={this.data.brand[this.storeService.getStore().brand]}/>;
                 break;
             case 'fuel':
-                activeStep = <FuelChoice changeUndisabled={this.enableNextButton} renderData={this.data.fuel}/>;
+                activeStep = <FuelChoice changeEnabled={this.enableNextButton} renderData={this.data.fuel}/>;
                 break;
             case 'transmission':
-                activeStep = <TransmissionChoice changeUndisabled={this.enableNextButton}
+                activeStep = <TransmissionChoice changeEnabled={this.enableNextButton}
                                                  renderData={this.data.transmission}/>;
                 break;
             case 'summary':
-                activeStep = <Summary renderData={this.modelChoiceData}/>;
+                activeStep = <Summary/>;
                 break;
             default:
                 activeStep = null;
@@ -74,17 +75,17 @@ class Wizard extends Component < {}, any>{
         return activeStep;
     }
 
-    enableNextButton = () => {
+    private enableNextButton = () => {
         this.setState({disabled: false});
     };
 
-    render() {
+    public render(): React.ReactNode {
         return (
             <div className="wizard">
                 {this.initStep(this.state.currentStep)}
                 <div className="buttons">
                     {this.state.currentStep !== 'brand' &&
-                    <Button disabled="" clickCallback={this.doBackStep} destiny="Back"/>}
+                    <Button disabled={false} clickCallback={this.doBackStep} destiny="Back"/>}
                     {this.state.currentStep !== 'summary' &&
                     <Button disabled={this.state.disabled} clickCallback={this.doNextStep} destiny="Next"/>}
                 </div>
