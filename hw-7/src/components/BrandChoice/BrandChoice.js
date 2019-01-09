@@ -1,19 +1,29 @@
 import React, {Component} from 'react';
 import './BrandChoice.css';
+import StoreService from '../../services/store.service'
 
 
 class BrandChoice extends Component {
+    constructor() {
+        super();
+        this.selectedBrand = StoreService.getStore() ? StoreService.getStore().brand : null;
+    }
 
     addToStore = (e) => {
-        // console.log(e.target.selectedIndex.value)
+        StoreService.addToStore({brand: e.target.value});
+    };
+
+    focusEventHandler = (e) => {
+        this.addToStore(e);
+        this.props.changeUndisabled();
     };
 
     render() {
         let options = Object.keys(this.props.renderData).map((brand, i) => <option key={i}>{brand}</option>);
         return (
-            <form onFocus={this.props.changeUndisabled} id="form">
+            <form id="form" onFocus={this.focusEventHandler}>
                 <label htmlFor="brand">Choice brand</label>
-                <select onChange={this.addToStore} name="brand" id="brand">
+                <select id="brand" name="brand" defaultValue={this.selectedBrand} onChange={this.addToStore}>
                     ${options}
                 </select>
             </form>

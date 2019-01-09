@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bfac7122-d0e3-4676-be66-8ae44cf534bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/digital_counter_7.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/reducers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serviceWorker.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-7/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-7/src/components/FuelChoice/FuelChoice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-7/src/components/Summary/Summary.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-8-news/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-8-news/.idea/hw-8-news.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-8-news/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-8-news/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-8-news/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-8-news/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-8-news/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-8-news/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-8-news/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-8-news/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-8-news/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-8-news/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-8-news/public/preloader.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-8-news/src/components/app/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-8-news/src/components/app/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-8-news/src/components/app/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-8-news/src/components/article/Article.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-8-news/src/components/article/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-8-news/src/components/menu/Menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-8-news/src/components/menu/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-8-news/src/helpers/dataParser.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-8-news/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-8-news/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-8-news/src/interfaces/data.Interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-8-news/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-8-news/src/react-app-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-8-news/src/serviceWorker.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-8-news/src/services/ApiService.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-8-news/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-8-news/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/.idea/hw-9-wizard.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/src/components/BrandChoice/BrandChoice.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/src/components/BrandChoice/BrandChoice.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/src/components/BrandChoice/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/src/components/Button/Button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/src/components/Button/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/src/components/Button/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/src/components/FuelChoice/FuelChoice.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/src/components/FuelChoice/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/src/components/ModelChoice/ModelChoice.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/src/components/ModelChoice/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/src/components/Summary/Summary.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/src/components/Summary/Summary.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/src/components/Summary/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/src/components/TransmissionChoice/TransmissionChoice.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/src/components/TransmissionChoice/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/src/components/Wizard/Wizard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/src/components/Wizard/Wizard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/src/components/Wizard/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/src/data/data.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/src/interfaces/interfaces.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/src/react-app-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/src/serviceWorker.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/src/services/store.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw-9-wizard/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW-2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/.idea/hw-7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hw-10-redux-calculator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-8-news/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/App/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/App/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/App/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/BrandChoice/BrandChoice.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/components/BrandChoice/BrandChoice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/components/Button/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/Button/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/components/Button/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/FuelCoice/FuelChoice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/FuelCoice/index.ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/components/FuelChoice/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/ModelChoice/ModelChoice.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/components/ModelChoice/ModelChoice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/Summary/Summary.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/components/Summary/Summary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/Summary/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/components/Summary/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/TransmissionChoice/TransmissionChoice.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/components/TransmissionChoice/TransmissionChoice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/TransmissionChoice/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/components/TransmissionChoice/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/Wizard/Wizard.css" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/components/Wizard/Wizard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/Wizard/Wizard.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/components/Wizard/Wizard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/src/components/Wizard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/components/Wizard/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-7/src/services/store.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-7/src/services/store.service.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="hw-10-redux-calculator" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/App.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="28" column="77" selection-start-line="28" selection-start-column="77" selection-end-line="28" selection-end-column="77" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/App.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/actions/actions.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/reducers.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/serviceWorker.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tsconfig.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/app/App.test.tsx" />
+        <option value="$PROJECT_DIR$/src/CONSTANTS.ts" />
+        <option value="$PROJECT_DIR$/src/index.tsx" />
+        <option value="$PROJECT_DIR$/src/actions/actions.ts" />
+        <option value="$PROJECT_DIR$/src/reducers/reducers.ts" />
+        <option value="$PROJECT_DIR$/src/app/App.tsx" />
+        <option value="$PROJECT_DIR$/src/app/App.css" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="445" />
+    <option name="y" value="25" />
+    <option name="width" value="1290" />
+    <option name="height" value="795" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hw-10-redux-calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw-10-redux-calculator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hw-10-redux-calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw-10-redux-calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hw-10-redux-calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw-10-redux-calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Interviewer/interviewer" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="C:\projects\react-courses\hw-10-redux-calculator\node_modules\eslint" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\projects\react-courses\hw-10-redux-calculator\node_modules\prettier" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="typescript-compiler-editor-notification" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bfac7122-d0e3-4676-be66-8ae44cf534bc" name="Default Changelist" comment="" />
+      <created>1546980511406</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546980511406</updated>
+      <workItem from="1546980514085" duration="2408000" />
+      <workItem from="1547018306913" duration="13218000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15626000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834436" visible="true" weight="0.24934107" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" sideWeight="0.50165564" side_tool="true" visible="true" weight="0.24934107" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32963374" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/app/App.test.tsx" />
+    <entry file="file://$PROJECT_DIR$/src/CONSTANTS.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serviceWorker.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/actions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/reducers.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/App.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="28" column="77" selection-start-line="28" selection-start-column="77" selection-end-line="28" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,20 +1,22 @@
 let instance = null;
 
-class StoreService{
+export default class StoreService {
 
-    constructor(){
-        if(!instance){
+    constructor() {
+        if (!instance) {
             instance = this;
         }
 
         return instance;
     }
-    static choice={};
 
-    static addToStore(choice){
-        StoreService.choice={... StoreService.choice,...choice};
+    static choice = {};
+
+    static addToStore(choice) {
+        StoreService.choice = {...StoreService.choice, ...choice};
     }
-    static getStore(){
+
+    static getStore() {
         return StoreService.choice;
     }
 }

@@ -1,1 +1,1 @@
-export { default } from './Wizard.js';
+export { default } from './Wizard';

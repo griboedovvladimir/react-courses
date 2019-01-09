@@ -1,0 +1,22 @@
+.wizard {
+  width: 600px;
+  height: 600px;
+  border: 2px solid black;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+.buttons{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+span{
+  font-weight: bold;
+}
+li{
+  list-style-type: none;
+}
