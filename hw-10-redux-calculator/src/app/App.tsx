@@ -2,54 +2,71 @@ import React, {Component} from 'react';
 import './App.css';
 import {bindActionCreators, Dispatch} from "redux";
 import * as actions from '../actions/actions'
-import {connect} from "react-redux";
+import {connect} from 'react-redux';
 import {buttons} from './buttons'
 
-class App extends Component <any, any> {
+class App extends Component <any, {}> {
     public buttons = buttons;
 
-    calculate(operation: string) {
-        const A = this.props.caclculate.memory;
-        const B = parseInt(this.props.caclculate.currentChar);
-
-        if (operation === 'sum') {
-            return A + B;
+    calculate(operation: string): number {
+        const A = this.props.caclculator.memory;
+        const B = Number(this.props.caclculator.currentNumberString);
+        let result: number;
+        switch (operation) {
+            case 'sum':
+                result = A + B;
+                break;
+            case 'subtract':
+                result = A - B;
+                break;
+            case 'multiply':
+                result = A * B;
+                break;
+            case 'division':
+                result = A / B;
+                break;
+            default:
+                result = 0;
         }
-        if (operation === 'subtract') {
-            return A - B;
-        }
-        if (operation === 'multiply') {
-            return A * B;
-        }
-        if (operation === 'division') {
-            return A / B;
-        }
+        return result;
     }
 
-    buttonsHandler(button: any) {
-        const operation = this.buttons[button.id].operation;
-        const currentNumber = parseInt(this.props.caclculate.currentChar);
-        const symbol = this.buttons[button.id].symbol;
-        const rememberedNumber = this.props.caclculate.memory;
-        const rememberedOperation = this.props.caclculate.operation;
+    operationInit(): void {
+        const rememberedOperation = this.props.caclculator.operation;
         const actions = this.props.action;
+        actions.clear();
+        this.calculate(rememberedOperation).toString().length > 13
+            ? actions.addChar(this.calculate(rememberedOperation).toString().slice(0, 12))
+            : actions.addChar(this.calculate(rememberedOperation));
+    }
 
-        if (!operation) {
+    buttonsHandler(button: any): void {
+        const operation = this.buttons[button.id].operation;
+        const currentNumber = Number(this.props.caclculator.currentNumberString);
+        const symbol = this.buttons[button.id].symbol;
+        const rememberedNumber = this.props.caclculator.memory;
+        const rememberedOperation = this.props.caclculator.operation;
+        const actions = this.props.action;
+        const buttonIsOperation = (operation !== 'equal') && (operation !== 'clear');
+
+        if (!operation && currentNumber === 0) {
+            actions.clearCurrentNumber();
             actions.addChar(symbol);
         }
-        if (operation && (operation !== 'equal') && (operation !== 'clear') && (operation === rememberedOperation)) {
-            actions.clear();
-            actions.addChar(this.calculate(rememberedOperation));
+        if (!operation && currentNumber !== 0) {
+            actions.addChar(symbol);
         }
-        if (operation && (operation !== 'equal') && (operation !== 'clear')) {
+        if (operation && buttonIsOperation && operation === rememberedOperation) {
+            this.operationInit();
+        }
+        if (operation && buttonIsOperation) {
             actions.remember(currentNumber, operation)
         }
         if (operation === 'clear') {
             actions.reset();
         }
         if (operation === 'equal' && currentNumber !== 0 && rememberedOperation) {
-            actions.clear();
-            actions.addChar(this.calculate(rememberedOperation));
+            this.operationInit()
         }
         if (!operation && rememberedOperation && currentNumber === rememberedNumber) {
             actions.clearCurrentNumber();
@@ -60,17 +77,17 @@ class App extends Component <any, any> {
 
     clickHandler = (e: any) => {
         if (e.target && e.target.type === 'button' &&
-            (this.props.caclculate.currentChar.length + 1 < 14 || this.buttons[e.target.id].symbol === 'C')) {
+            (this.props.caclculator.currentNumberString.length + 1 < 14 || this.buttons[e.target.id].symbol === 'C')) {
             this.buttonsHandler(e.target);
         }
     };
 
-    render() {
+    public render(): React.ReactNode {
         let buttons = this.buttons.map((btn, i) => <button type="button" id={i.toString()}
                                                            key={i}>{btn.symbol}</button>);
         return (
             <div className="calculator">
-                <div className="screen">{parseInt(this.props.caclculate.currentChar)}</div>
+                <div className="screen">{this.props.caclculator.currentNumberString}</div>
                 <div className="buttons" onClick={this.clickHandler}>
                     {buttons}
                 </div>
@@ -79,7 +96,7 @@ class App extends Component <any, any> {
     }
 }
 
-const mapStateToProps = (state: any) => state;
+const mapStateToProps = (state: {}) => state;
 const mapDispatchToProps = (dispatch: Dispatch) => ({
     action: bindActionCreators({...actions}, dispatch)
 });
