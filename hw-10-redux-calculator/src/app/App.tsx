@@ -5,12 +5,27 @@ import * as actions from '../actions/actions'
 import {connect} from 'react-redux';
 import {buttons} from './buttons'
 
-class App extends Component <any, {}> {
+interface IAppProps {
+    calculator: {
+        currentNumberString: string;
+        memory: number;
+        operation: string;
+    },
+    action:{
+        clear:()=> void;
+        addChar:(char:string|number)=> void;
+        clearCurrentNumber: ()=>void;
+        remember:(number: number, operation: string)=>void;
+        reset: () => void
+    }
+}
+
+class App extends Component <IAppProps, {}> {
     public buttons = buttons;
 
     calculate(operation: string): number {
-        const A = this.props.caclculator.memory;
-        const B = Number(this.props.caclculator.currentNumberString);
+        const A = this.props.calculator.memory;
+        const B = Number(this.props.calculator.currentNumberString);
         let result: number;
         switch (operation) {
             case 'sum':
@@ -32,7 +47,7 @@ class App extends Component <any, {}> {
     }
 
     operationInit(): void {
-        const rememberedOperation = this.props.caclculator.operation;
+        const rememberedOperation = this.props.calculator.operation;
         const actions = this.props.action;
         actions.clear();
         this.calculate(rememberedOperation).toString().length > 13
@@ -42,10 +57,10 @@ class App extends Component <any, {}> {
 
     buttonsHandler(button: any): void {
         const operation = this.buttons[button.id].operation;
-        const currentNumber = Number(this.props.caclculator.currentNumberString);
+        const currentNumber = Number(this.props.calculator.currentNumberString);
         const symbol = this.buttons[button.id].symbol;
-        const rememberedNumber = this.props.caclculator.memory;
-        const rememberedOperation = this.props.caclculator.operation;
+        const rememberedNumber = this.props.calculator.memory;
+        const rememberedOperation = this.props.calculator.operation;
         const actions = this.props.action;
         const buttonIsOperation = (operation !== 'equal') && (operation !== 'clear');
 
@@ -77,7 +92,7 @@ class App extends Component <any, {}> {
 
     clickHandler = (e: any) => {
         if (e.target && e.target.type === 'button' &&
-            (this.props.caclculator.currentNumberString.length + 1 < 14 || this.buttons[e.target.id].symbol === 'C')) {
+            (this.props.calculator.currentNumberString.length + 1 < 14 || this.buttons[e.target.id].symbol === 'C')) {
             this.buttonsHandler(e.target);
         }
     };
@@ -87,7 +102,7 @@ class App extends Component <any, {}> {
                                                            key={i}>{btn.symbol}</button>);
         return (
             <div className="calculator">
-                <div className="screen">{this.props.caclculator.currentNumberString}</div>
+                <div className="screen">{this.props.calculator.currentNumberString}</div>
                 <div className="buttons" onClick={this.clickHandler}>
                     {buttons}
                 </div>
@@ -96,7 +111,7 @@ class App extends Component <any, {}> {
     }
 }
 
-const mapStateToProps = (state: {}) => state;
+const mapStateToProps = (state: IAppProps) => state;
 const mapDispatchToProps = (dispatch: Dispatch) => ({
     action: bindActionCreators({...actions}, dispatch)
 });

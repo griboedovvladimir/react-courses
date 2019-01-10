@@ -2,6 +2,7 @@
   "name": "hw-10-redux-calculator",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://griboedovvladimir.github.io/react-courses",
   "dependencies": {
     "@types/jest": "23.3.12",
     "@types/node": "10.12.18",
@@ -9,6 +10,7 @@
     "@types/react-dom": "16.0.11",
     "@types/react-redux": "^6.0.12",
     "@types/redux": "^3.6.0",
+    "gh-pages": "^2.0.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-redux": "^6.0.0",
@@ -20,6 +22,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

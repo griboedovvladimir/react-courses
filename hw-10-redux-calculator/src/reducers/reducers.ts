@@ -19,7 +19,7 @@ interface IState {
     operation: string;
 }
 
-export function caclculator(state: IState = InitialState, action: IActions): IState {
+export function calculator(state: IState = InitialState, action: IActions): IState {
     let newState = state;
     switch (action.type) {
         case CONSTANTS.ADD_CHAR:
