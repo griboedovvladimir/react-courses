@@ -86,7 +86,7 @@ class App extends Component <IAppProps, {}> {
 
     clickHandler = (e: any) => {
         if (e.target && e.target.type === 'button' &&
-            (this.props.calculator.currentNumberString.length + 1 < 14 || this.buttons[e.target.id].symbol === 'C')) {
+            (this.props.calculator.currentNumberString.length < 13 || this.buttons[e.target.id].symbol === 'C')) {
             this.buttonsHandler(e.target);
         }
     };
