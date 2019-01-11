@@ -26,24 +26,18 @@ class App extends Component <IAppProps, {}> {
     calculate(operation: string): number {
         const A = this.props.calculator.memory;
         const B = Number(this.props.calculator.currentNumberString);
-        let result: number;
         switch (operation) {
             case 'sum':
-                result = A + B;
-                break;
+                return A + B;
             case 'subtract':
-                result = A - B;
-                break;
+                return  A - B;
             case 'multiply':
-                result = A * B;
-                break;
+                return  A * B;
             case 'division':
-                result = A / B;
-                break;
+                return A / B;
             default:
-                result = 0;
+                return  0;
         }
-        return result;
     }
 
     operationInit(): void {
