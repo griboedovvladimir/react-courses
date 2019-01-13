@@ -20,7 +20,7 @@ interface IAppProps {
     }
 }
 
-class App extends Component <IAppProps, {}> {
+class App extends Component <IAppProps> {
     public buttons = buttons;
 
     calculate(operation: string): number {
@@ -59,7 +59,7 @@ class App extends Component <IAppProps, {}> {
         const buttonIsOperation = (operation !== 'equal') && (operation !== 'clear');
 
         if (!operation && currentNumber === 0) {
-            actions.clearCurrentNumber();
+            this.props.clearCurrentNumber();
             actions.addChar(symbol);
         }
         if (!operation && currentNumber !== 0) {
@@ -106,10 +106,10 @@ class App extends Component <IAppProps, {}> {
 }
 
 const mapStateToProps = (state: IAppProps) => state;
-const mapDispatchToProps = (dispatch: Dispatch) => ({
-    action: bindActionCreators({...actions}, dispatch)
-});
+// const mapDispatchToProps = (dispatch: Dispatch) => ({
+//     action: bindActionCreators({...actions}, dispatch)
+// });
 
-export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default connect(mapStateToProps, {...actions})(App);
 
 
