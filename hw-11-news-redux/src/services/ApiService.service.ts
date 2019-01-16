@@ -2,6 +2,14 @@ import {dataParser} from "../helpers/dataParser";
 import {IDataInterface} from "../interfaces/data.Interface";
 
 export class ApiService {
+    public category = ['people', 'realt', 'auto','tech'];
+    
+    getAllNews(){
+       return this.category.map((category) => {
+           return this.getNews(category)
+       } )
+    } 
+    
     async getNews(id: string): Promise<Array<IDataInterface>> {
         let response = await fetch(`backend/${id}.php`, {
             method: 'POST',

@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './App.css';
-import {bindActionCreators, Dispatch} from "redux";
 import * as actions from '../actions/actions'
 import {connect} from 'react-redux';
 import {buttons} from './buttons'
