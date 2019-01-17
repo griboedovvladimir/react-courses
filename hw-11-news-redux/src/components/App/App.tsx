@@ -3,20 +3,20 @@ import {connect} from 'react-redux';
 import './App.css';
 import {ApiService} from '../../services/ApiService.service';
 import {IDataInterface} from "../../interfaces/data.Interface";
-import Article from '../article';
+import Article from '../Article';
 import { data } from './data';
+import { getNews } from "../../actions";
 
 class App extends Component <any, any> {
     public apiService = new ApiService();
-    public state = {newsData: []};
     public  newsData = data;
 
     public componentDidMount(): void {
-        this.setState({newsData: this.newsData})
+        this.props.getNews();
     }
 
     render() {
-        const news = this.state.newsData.map((data: IDataInterface, i: number): ReactNode => {
+        const news = this.props.news.news.map((data: IDataInterface, i: number): ReactNode => {
             return <Article newsData={data} key={i}/>
         });
         return (
@@ -25,7 +25,7 @@ class App extends Component <any, any> {
                 <input type= "text"/>
                 <div>A-Z</div>
                 <select>
-                    <option selected value="all">все</option>
+                    <option value="all">все</option>
                     <option value="peaple">люди</option>
                     <option value="авто">авто</option>
                     <option value="технологии">технологии</option>
@@ -44,4 +44,4 @@ class App extends Component <any, any> {
 
 
 const mapStateToProps = (state: any) => state;
-export default connect(mapStateToProps, {...actions})(App);
+export default connect(mapStateToProps,{getNews})(App);
