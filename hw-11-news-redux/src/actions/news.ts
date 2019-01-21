@@ -1,5 +1,5 @@
-import { ActionCreator} from "redux";
-import { NewsActions } from "./actions";
+import { ActionCreator} from 'redux';
+import { NewsActions } from './actions';
 
 export const getNews: ActionCreator<any> = (news: any[]) => {
     return {
