@@ -11,9 +11,9 @@ const catSortSelector = (state: interfaces.IStoreInterface) => state.catsort.cat
 export const searchNewsSelector = createSelector(newsSelector, searchTextSelector, sortSelector, catSortSelector,
     (news, searchText, sort, catsort) => {
         const searchTextInLowerCase = searchText.toLowerCase();
-
+        let filtredNews;
         if ((!searchTextInLowerCase && !catsort && !sort) || catsort === 'all' ){
-            return {news : news}
+            filtredNews = {news : news}
         }
 
         const sortedNews = news.news.sort((first: interfaces.IDataInterface, second:interfaces.IDataInterface) => {
@@ -21,28 +21,28 @@ export const searchNewsSelector = createSelector(newsSelector, searchTextSelecto
         });
 
         if (sort === NewsActions.SORT_ASC){
-            return {news : {news:sortedNews}}
+            filtredNews = {news : {news:sortedNews}}
         }
 
         if (sort === NewsActions.SORT_DESC){
-            return {news : {news:sortedNews.reverse()}}
-        }
-
-        if (catsort && catsort !== 'all') {
-            return {
-                news: {
-                    news: news.news.filter((article: interfaces.IDataInterface) =>
-                        article.category === catsort)
-                }
-            };
+            filtredNews = {news : {news:sortedNews.reverse()}}
         }
 
         if( searchTextInLowerCase ){
-            return {
+            filtredNews = {
                 news: {news: news.news.filter((article: interfaces.IDataInterface) =>
                         article.description.toLowerCase().includes(searchTextInLowerCase) ||
                         article.title.toLowerCase().includes(searchTextInLowerCase))}
             }
         }
 
+        if (catsort && catsort !== 'all') {
+            filtredNews = {
+                news: {
+                    news: news.news.filter((article: interfaces.IDataInterface) =>
+                        article.category === catsort)
+                }
+            };
+        }
+return filtredNews;
     });
