@@ -1,14 +1,13 @@
 {
-  "main.css": "/react-courses/static/css/main.17c203d3.chunk.css",
-  "main.js": "/react-courses/static/js/main.7e2d3660.chunk.js",
-  "main.js.map": "/react-courses/static/js/main.7e2d3660.chunk.js.map",
-  "static/js/1.ee401522.chunk.js": "/react-courses/static/js/1.ee401522.chunk.js",
-  "static/js/1.ee401522.chunk.js.map": "/react-courses/static/js/1.ee401522.chunk.js.map",
+  "main.css": "/react-courses/static/css/main.c72f369a.chunk.css",
+  "main.js": "/react-courses/static/js/main.ae1382cc.chunk.js",
+  "main.js.map": "/react-courses/static/js/main.ae1382cc.chunk.js.map",
+  "static/js/1.c72f0a6c.chunk.js": "/react-courses/static/js/1.c72f0a6c.chunk.js",
+  "static/js/1.c72f0a6c.chunk.js.map": "/react-courses/static/js/1.c72f0a6c.chunk.js.map",
   "runtime~main.js": "/react-courses/static/js/runtime~main.24f7960f.js",
   "runtime~main.js.map": "/react-courses/static/js/runtime~main.24f7960f.js.map",
-  "static/media/App.css": "/react-courses/static/media/digital_counter_7.52a6484f.ttf",
-  "static/css/main.17c203d3.chunk.css.map": "/react-courses/static/css/main.17c203d3.chunk.css.map",
+  "static/css/main.c72f369a.chunk.css.map": "/react-courses/static/css/main.c72f369a.chunk.css.map",
   "index.html": "/react-courses/index.html",
-  "precache-manifest.6b3eea0b16aab5b9d4181c9b837e63fc.js": "/react-courses/precache-manifest.6b3eea0b16aab5b9d4181c9b837e63fc.js",
+  "precache-manifest.ce858b077446ae536822d32605a86cca.js": "/react-courses/precache-manifest.ce858b077446ae536822d32605a86cca.js",
   "service-worker.js": "/react-courses/service-worker.js"
 }
