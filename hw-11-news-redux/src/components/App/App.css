@@ -107,4 +107,10 @@ a:hover {
 .sort-panel{
   display: flex;
   justify-content: space-evenly;
+  background-color: #ffe80e;
+  padding: 10px 0;
+}
+
+button{
+  margin: 3px;
 }

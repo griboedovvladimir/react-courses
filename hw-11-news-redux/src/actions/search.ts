@@ -1,7 +1,12 @@
 import { ActionCreator} from "redux";
 import { NewsActions } from "./actions";
 
-export const search: ActionCreator<any> = (text: string) => {
+export interface ISearchAction {
+    type: string;
+    payload: string;
+}
+
+export const search: ActionCreator<ISearchAction> = (text: string) => {
     return {
         type: NewsActions.SEARCH,
         payload: text

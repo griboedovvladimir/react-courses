@@ -1,12 +1,12 @@
 import React from 'react';
-import {IDataInterface} from "../../interfaces/data.Interface";
+import {IDataInterface} from "../../interfaces/interfaces";
 
 interface ArticlePropsTypes {
     key: number;
     newsData: IDataInterface;
 }
 
-const Article: React.FunctionComponent<ArticlePropsTypes> = ({key, newsData}) => {
+const Article: React.FC<ArticlePropsTypes> = ({key, newsData}) => {
     return (
         <div className="news-wrapper">
             <img alt="news" className="news-img" src={newsData.img}/>

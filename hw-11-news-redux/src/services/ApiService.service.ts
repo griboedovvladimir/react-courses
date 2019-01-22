@@ -1,10 +1,10 @@
 import {dataParser} from "../helpers/dataParser";
-import {IDataInterface} from "../interfaces/data.Interface";
+import {IDataInterface} from "../interfaces/interfaces";
 
 export class ApiService {
     public category = ['people', 'realt', 'auto','tech'];
     
-    getAllNews(){
+    getAllNews(): Promise<Array<IDataInterface>>[] {
        return this.category.map((category) => {
            return this.getNews(category)
        } )

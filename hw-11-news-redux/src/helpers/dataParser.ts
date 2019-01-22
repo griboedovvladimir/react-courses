@@ -1,4 +1,4 @@
-import {IDataInterface} from "../interfaces/data.Interface";
+import {IDataInterface} from "../interfaces/interfaces";
 
 export function dataParser(response: string, id: string): Array<IDataInterface> {
     let data = response.split(' class="news-tidings__item news-tidings__item_1of3 news-tidings__item_condensed "');

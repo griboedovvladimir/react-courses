@@ -1,7 +1,12 @@
-import { ActionCreator} from 'redux';
-import { NewsActions } from './actions';
+import {ActionCreator} from 'redux';
+import {NewsActions} from './actions';
 
-export const getNews: ActionCreator<any> = (news: any[]) => {
+export interface IGetNewsActon {
+    type: string;
+    payload: any[]
+}
+
+export const getNews: ActionCreator<IGetNewsActon> = (news: any[]) => {
     return {
         type: NewsActions.GET_NEWS,
         payload: news

@@ -1,11 +1,12 @@
-import { NewsActions } from '../actions';
+import {NewsActions} from '../actions';
+import {ISearchAction} from "../actions";
 
 const initialState = {searchText: ''};
 
-export default (state: any = initialState, action: any) => {
+export default (state: { searchText: string } = initialState, action: ISearchAction) => {
     switch (action.type) {
         case NewsActions.SEARCH:
-            return{
+            return {
                 ...state,
                 searchText: action.payload
             };
